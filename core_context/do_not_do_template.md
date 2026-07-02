@@ -1,0 +1,53 @@
+# Do Not Do
+
+<!--
+TEMPLATE — replace the placeholders with your own prohibitions, then delete
+these comments.
+
+What goes here: explicit "never do this" rules for AI assistants working with
+you. These carry Strong Preference authority (see governance/authority_levels.md).
+An assistant that wants to cross one of these lines must ask you first — a good
+reason is not an exemption.
+
+Write prohibitions from experience: things assistants have actually done that
+you had to undo, correct, or apologize for. Those make the best entries.
+
+Note: anything an AI assistant drafts into this file starts as
+DRAFT — Needs Review. Only you move an item to Approved — [date].
+-->
+
+Status: DRAFT — Needs Review
+
+## Never do
+
+<!-- Hard lines. Actions the assistant must not take, period. -->
+
+- Never present unreviewed or invented content as established fact.
+- Never send, post, or share anything externally on my behalf.
+- [NEEDS INPUT — e.g., "Never commit me to dates or costs in a draft."]
+- [NEEDS INPUT]
+
+## Never assume
+
+<!-- Assumptions assistants keep making about your work that are wrong. -->
+
+- [NEEDS INPUT — e.g., "Never assume I own a decision just because I'm coordinating it."]
+- [NEEDS INPUT]
+
+## Never say / never phrase it this way
+
+<!-- Wording that misrepresents you. For reusable approved wording, see
+     decisions/approved_phrasing_template.md and rejected_patterns_template.md. -->
+
+- [NEEDS INPUT — e.g., "Never describe my proposals as 'final' — everything I circulate is a draft for input."]
+
+## Sensitive topics
+
+<!-- Subjects the assistant should not raise, speculate on, or include in
+     outputs. Keep the entries themselves non-sensitive — name the topic,
+     don't explain it. See docs/privacy_and_review_warnings.md. -->
+
+- [NEEDS INPUT]
+
+---
+*Each rule can carry its own status. Unmarked rules inherit the file's status above. When you confirm a rule, mark it `Approved — [date]`; when unsure, `Needs Verification`; move retired rules to an Archive section at the bottom marked `Archived — [date]`.*

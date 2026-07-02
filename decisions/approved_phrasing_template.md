@@ -1,0 +1,55 @@
+# Approved Phrasing
+
+<!--
+TEMPLATE — replace the placeholders with your own wording, then delete these
+comments.
+
+What goes here: wording and framing you've approved for reuse — how you
+describe your work, your projects, or recurring situations. When an assistant
+drafts something covered here, it should use this wording instead of inventing
+its own. Carries Strong Preference authority (see governance/authority_levels.md).
+
+IMPORTANT CAVEAT — approved phrasing is not automatically true in every
+context. Approval means "this wording is right when the situation fits," not
+"insert this anywhere." An assistant reusing a phrase must still check that it
+fits the audience, the moment, and the facts. When in doubt, it asks.
+
+Note: anything an AI assistant drafts into this file starts as
+DRAFT — Needs Review. Only you move an item to Approved — [date].
+-->
+
+Status: DRAFT — Needs Review
+
+<!-- Format per entry: the phrasing, where it applies, and its status.
+     The "use when" field is what keeps approved wording from being
+     pasted into the wrong context. -->
+
+## How I describe my work
+
+- Phrasing: "[NEEDS INPUT — e.g., 'I coordinate delivery across three vendor teams.']"
+  - Use when: [NEEDS INPUT — e.g., "introducing my role to people outside the project"]
+  - Status: DRAFT — Needs Review
+
+## Recurring situations
+
+<!-- Standard wording for things you say often: status updates, scope
+     pushback, delay notices, meeting summaries. -->
+
+- Phrasing: "[NEEDS INPUT — e.g., 'This is on track against the revised plan, not the original one.']"
+  - Use when: [NEEDS INPUT]
+  - Status: DRAFT — Needs Review
+
+## Framings I want kept
+
+<!-- Not exact quotes — angles. How you want topics framed when they come up. -->
+
+- Framing: [NEEDS INPUT — e.g., "Describe scope changes in terms of trade-offs, never as 'small additions.'"]
+  - Status: DRAFT — Needs Review
+
+---
+
+## Archive
+
+<!-- Phrasing you no longer use moves here, marked Archived — [date]. -->
+
+- [empty]

@@ -1,0 +1,45 @@
+# Decision Log
+
+<!--
+TEMPLATE — start logging your own decisions, then delete these comments.
+
+What goes here: decisions future sessions should know about, so assistants
+stop re-opening settled questions and stop proposing things you already
+rejected. Log decisions about your work AND decisions about this framework
+(especially any change to a locked fact — see governance/update_rules.md).
+
+This log is append-friendly: add new entries at the TOP, don't rewrite old
+ones. If a decision is reversed, add a new entry that supersedes it and mark
+the old one Archived — [date] with a pointer to the new entry.
+
+Note: entries drafted by an AI assistant start as DRAFT — Needs Review. Only
+you move an entry to Approved — [date]. An entry that never gets approved is
+just a note, not a decision.
+-->
+
+## How to log
+
+Copy the entry format below. Newest entries first. Keep each field to a line or two — a log you won't re-read is a log that doesn't work.
+
+### Entry format
+
+```
+## [YYYY-MM-DD] — [Short name of the decision]
+- Decision: [what was decided, in one sentence]
+- Rationale: [why — enough that future-you understands the trade-off]
+- Status: [DRAFT — Needs Review | Needs Verification | Approved — [date] | Archived — [date]]
+- Affects: [files updated because of this decision, and/or the authority level the change entered at]
+- Review notes: [anything to check before relying on this — or "none"]
+```
+
+---
+
+## Entries
+
+## [NEEDS INPUT — date] — [NEEDS INPUT — first decision]
+
+- Decision: [NEEDS INPUT]
+- Rationale: [NEEDS INPUT]
+- Status: DRAFT — Needs Review
+- Affects: [NEEDS INPUT]
+- Review notes: [NEEDS INPUT — or "none"]

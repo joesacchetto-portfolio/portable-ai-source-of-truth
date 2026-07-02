@@ -1,0 +1,69 @@
+# Rejected Patterns
+
+<!--
+TEMPLATE — replace the placeholders with your own rejections, then delete
+these comments.
+
+What goes here: wording, framings, assumptions, behaviors, and AI habits
+you've rejected — so assistants stop repeating them. Carries Strong Preference
+authority (see governance/authority_levels.md): an assistant must not re-propose
+or reuse anything listed here without asking first.
+
+These are not permanent law. You can revisit, soften, or remove any entry —
+they record what you rejected and why, so the "why" can be re-examined when
+circumstances change. Assistants may ask whether a rejection still holds;
+they just can't ignore it.
+
+The best entries come from experience: note the pattern the first time you
+have to correct it, and you'll never correct it twice.
+
+Note: anything an AI assistant drafts into this file starts as
+DRAFT — Needs Review. Only you move an item to Approved — [date].
+-->
+
+Status: DRAFT — Needs Review
+
+<!-- Format per entry: the pattern, why it was rejected, and its status.
+     The "why" matters — it's what makes a rejection revisitable later. -->
+
+## Rejected wording
+
+<!-- Words and phrases assistants must stop using in your drafts. -->
+
+- Pattern: "[NEEDS INPUT — e.g., 'quick win']"
+  - Why rejected: [NEEDS INPUT — e.g., "sets expectations I then have to walk back"]
+  - Status: DRAFT — Needs Review
+
+## Rejected framings
+
+<!-- Angles or characterizations that misrepresent you or your work. -->
+
+- Pattern: [NEEDS INPUT — e.g., "framing a delay as anyone's fault — describe cause and impact instead"]
+  - Why rejected: [NEEDS INPUT]
+  - Status: DRAFT — Needs Review
+
+## Rejected assumptions
+
+<!-- Things assistants keep assuming that are wrong in your context. -->
+
+- Pattern: [NEEDS INPUT — e.g., "assuming every document is for an executive audience"]
+  - Why rejected: [NEEDS INPUT]
+  - Status: DRAFT — Needs Review
+
+## Rejected AI habits
+
+<!-- Behaviors, not words: over-summarizing, adding unrequested sections,
+     padding with caveats, inventing structure. -->
+
+- Pattern: [NEEDS INPUT — e.g., "adding an executive summary to documents that didn't ask for one"]
+  - Why rejected: [NEEDS INPUT]
+  - Status: DRAFT — Needs Review
+
+---
+
+## Archive
+
+<!-- Rejections you've withdrawn move here, marked Archived — [date], with a
+     one-line note on why they no longer apply. -->
+
+- [empty]

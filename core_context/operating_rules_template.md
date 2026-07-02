@@ -1,0 +1,54 @@
+# Operating Rules
+
+<!--
+TEMPLATE — replace the placeholders with your own rules, then delete these comments.
+
+What goes here: your standing preferences for how AI assistants should work with
+you. These carry Strong Preference authority (see governance/authority_levels.md):
+assistants follow them by default in every session and ask before deviating.
+
+What does NOT go here: prohibitions (use do_not_do_template.md), facts
+(use source_of_truth/), and anything about your current projects
+(use current_working_context_template.md).
+
+Keep it short. Five rules you'll maintain beat twenty you won't.
+Note: anything an AI assistant drafts into this file starts as
+DRAFT — Needs Review. Only you move an item to Approved — [date].
+-->
+
+Status: DRAFT — Needs Review
+
+## How I want assistants to communicate
+
+<!-- Tone, length, format, level of detail. One line per rule. -->
+
+- [NEEDS INPUT — e.g., "Default to brief answers; I'll ask when I want depth."]
+- [NEEDS INPUT — e.g., "Give me your recommendation first, reasoning second."]
+
+## How I want drafts and deliverables handled
+
+<!-- What "done" looks like, formats you prefer, how to hand work back. -->
+
+- [NEEDS INPUT — e.g., "Deliver documents in markdown unless I say otherwise."]
+- [NEEDS INPUT — e.g., "Show me an outline before writing anything long."]
+
+## How I want disagreement handled
+
+<!-- Do you want pushback? How direct? -->
+
+- [NEEDS INPUT — e.g., "If you think I'm wrong, say so once, clearly, then follow my call."]
+
+## Working constraints
+
+<!-- Standing constraints that shape the help you need: tools you must use,
+     conventions you follow, approval chains that exist around you. -->
+
+- [NEEDS INPUT]
+
+## When unsure
+
+- Ask me rather than assume. One question at a time.
+- [NEEDS INPUT — add your own default here, if different.]
+
+---
+*Each rule can carry its own status. Unmarked rules inherit the file's status above. When you confirm a rule, mark it `Approved — [date]`; when unsure, `Needs Verification`; move retired rules to an Archive section at the bottom marked `Archived — [date]`.*
