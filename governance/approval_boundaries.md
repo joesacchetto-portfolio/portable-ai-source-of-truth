@@ -16,6 +16,16 @@ An AI assistant must get explicit approval before:
 - **Anything committing you** — dates, money, scope, promises, agreements, or statements made on your behalf.
 - **Adding information about other people** beyond neutral, work-necessary facts.
 
+## My additional sign-off items
+
+<!-- Your own always-approve items — added during setup (prompt 02 routes
+     "what needs my sign-off" content here) or whenever you notice one.
+     AI-drafted entries start as DRAFT — Needs Review; only you mark them
+     Approved — [date]. Assistants may add DRAFT entries in this section;
+     every other part of this file still requires sign-off to edit. -->
+
+- [NEEDS INPUT]
+
 ## Allowed without sign-off (proposal still visible)
 
 The assistant may do these directly, as long as the change is shown to the human and enters at DRAFT / Needs Review status:
@@ -24,6 +34,7 @@ The assistant may do these directly, as long as the change is shown to the human
 - Add a proposed entry to the decision log, marked DRAFT.
 - Update `current_working_context` to reflect what the human said in the current session — quoting the human, not interpreting.
 - Flag stale items, contradictions, or privacy risks it notices.
+- Add proposed entries under "My additional sign-off items" above, marked DRAFT — Needs Review. (That section only — the rest of this file still requires sign-off to edit.)
 
 ## Gray areas — ask first
 

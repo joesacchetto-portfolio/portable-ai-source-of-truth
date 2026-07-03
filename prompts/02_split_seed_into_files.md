@@ -23,7 +23,7 @@ Sort the seed into these files:
 - `core_context/current_working_context_template.md` — what I'm working on right now (from "Current focus" — the current-work detail).
 - `source_of_truth/locked_facts_template.md` — stable facts about my role and work (from "Role and work" and "Facts assistants get wrong"). These are *candidates* for locking — they still enter as DRAFT.
 - `source_of_truth/current_priorities_template.md` — my ranked priorities (from "Current focus" — the durable ranking).
-- `governance/approval_boundaries.md` — what needs my sign-off (from "What needs my sign-off").
+- `governance/approval_boundaries.md` — what needs my sign-off (from "What needs my sign-off") — add entries under the "My additional sign-off items" section only; do not alter any other part of that file.
 - `decisions/decision_log_template.md` — leave mostly empty; add only decisions explicitly stated in the seed, dated today, marked DRAFT.
 
 Anything in the seed about "Recurring workflows" should be listed at the end as **suggestions** for me to adapt into the `workflows/` files myself — don't write those files.

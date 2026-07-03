@@ -8,7 +8,7 @@ Use this when you have a transcript — a meeting recording's text, a chat log, 
 
 **1. Give the assistant the transcript and this instruction:**
 
-> Summarize this transcript. Rules: only what was actually said — every point must trace to a specific statement in the transcript. Do not add background knowledge, do not connect this to other meetings or prior context unless the transcript itself does, and do not infer what people "really meant." Mark anything ambiguous as ambiguous. Attribute views to the people who expressed them; a concern someone raised is that person's concern, not a fact.
+> Summarize this transcript. Rules: only what was actually said — every point must trace to a specific statement in the transcript. Do not add background knowledge, do not connect this to other meetings or prior context unless the transcript itself does, and do not infer what people "really meant." Mark anything ambiguous as ambiguous. Attribute views to the people who expressed them; a concern someone raised is that person's concern, not a fact. If no transcript is attached to this instruction, say so and stop — never summarize assumed or reconstructed content. If what I gave you is a prompt requesting future analysis rather than a record of what happened, summarize the request itself — constraints, decisions needed, open questions — not the outcome of work that hasn't happened.
 
 **2. Check the summary against the transcript.** Spot-check the points that matter most. Anything you can't trace to the transcript gets cut or marked `Needs Verification`.
 
@@ -28,5 +28,6 @@ Use this when you have a transcript — a meeting recording's text, a chat log, 
 ## Quick rules of thumb
 
 - If it isn't in the transcript, it doesn't come out of this workflow.
+- No transcript in hand means no summary — the workflow starts when the source exists.
 - One meeting changes `current_working_context`; it takes much more to change locked facts.
 - When a summary sounds smoother than the meeting actually was, that smoothness is usually invention.

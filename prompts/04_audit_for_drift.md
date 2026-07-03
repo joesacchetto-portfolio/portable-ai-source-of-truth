@@ -8,7 +8,7 @@
 
 ---
 
-Audit my source-of-truth folder for drift. Read all the files, then report — **do not edit anything unless I approve a specific change.** Check for:
+Audit my source-of-truth folder for drift. Read all the files, then report. **During the audit phase do not modify, create, delete, rename, or move any file, and do not fix anything you find — report only.** Edits happen later, one item at a time, only after I approve a specific change. Check for:
 
 1. **Stale content.** Approved items that look outdated: past-tense deadlines, finished projects still listed as active, a `current_working_context` that hasn't changed in a while. Flag each with why it looks stale.
 2. **Contradictions.** Places where two files disagree — a locked fact vs. current context, a priority vs. an operating rule, a rejected pattern that still appears elsewhere. Quote both sides.
