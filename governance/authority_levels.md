@@ -26,7 +26,7 @@ Lives mainly in: `core_context/current_working_context_template.md`, `source_of_
 
 ### 4. Needs Verification
 
-Items flagged as uncertain, stale-looking, or not yet confirmed — including anything still marked DRAFT or Needs Review. The assistant may mention these but must not rely on them without saying so, and must not repeat them as fact.
+Items flagged as uncertain, stale-looking, or not yet confirmed — including anything still marked DRAFT — Needs Review. The assistant may mention these but must not rely on them without saying so, and must not repeat them as fact.
 
 Can appear in any file, marked with its status.
 
@@ -42,4 +42,4 @@ A higher level always beats a lower one. If two items at the **same** level conf
 
 ## Moving between levels
 
-Content only moves **up** a level (toward Locked) through explicit human approval — see `update_rules.md`. An AI assistant may propose a promotion; it may never perform one on its own. Moving **down** (e.g., a locked fact becoming stale and getting archived) also requires the human's say-so, but assistants are encouraged to flag candidates.
+Content only moves **up** a level (toward Locked) through explicit human approval — see `update_rules.md`. An AI assistant may propose a promotion; it may never perform one on its own. Moving **down** (e.g., a locked fact becoming stale and getting archived) also requires the human's say-so, with one exception: an assistant may append a `Needs Verification` flag (with specific stated evidence) to any item, which suspends that item's authority until the human resolves it. Assistants never remove flags, archive content, or demote anything further on their own.

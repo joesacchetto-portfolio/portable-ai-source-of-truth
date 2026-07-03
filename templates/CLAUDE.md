@@ -30,7 +30,7 @@ Folder location: [NEEDS INPUT — path to the source-of-truth folder, if not thi
 - **Do not invent facts.** If the files don't say it and the user didn't say it, ask. Use `[NEEDS INPUT]` rather than plausible filler.
 - **Follow the governance files.** `governance/authority_levels.md` (what weight content carries), `governance/approval_boundaries.md` (what needs sign-off), `governance/update_rules.md` (how changes happen).
 - **Keep files small.** Propose cuts before additions; flag files that have grown past easy re-reading.
-- **Report contradictions.** Between files, or between a file and the user — surface them plainly. Never silently pick a winner, and never "fix" a fact on your own; mark it Needs Verification and tell the user.
+- **Report contradictions.** Between files, or between a file and the user — surface them plainly. Never silently pick a winner, and never "fix" a fact on your own. If you have specific evidence an item is wrong, you may append a `Needs Verification` flag to it — stating the evidence — but never remove or downgrade a flag, change the item's content, or apply any other status. Then tell the user.
 
 ## Status vocabulary used in these files
 
