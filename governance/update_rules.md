@@ -24,6 +24,7 @@ Use ISO-style dates in statuses: YYYY-MM-DD.
 - Draft new content, entering at DRAFT — Needs Review.
 - Propose edits to existing content, shown as before/after, applied only on approval.
 - Apply the specific edits a human approves, exactly as approved.
+- Update `core_context/current_working_context_template.md` to reflect what the human said in the current session — quoting, not interpreting — entering at DRAFT — Needs Review (see `approval_boundaries.md`, "Allowed without sign-off").
 - Flag issues (staleness, contradictions, privacy risks) without editing.
 
 **AI assistants may never:**

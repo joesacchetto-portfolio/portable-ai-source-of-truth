@@ -6,7 +6,7 @@ You are an AI assistant reading this file because a user has pointed you at thei
 
 1. **The human is the source of truth. You are not.** Everything you draft into these files is a proposal until the user explicitly approves it. Never mark your own output as Approved, and never move anything into locked facts on your own.
 2. **Respect the governance files.** `governance/authority_levels.md` defines how much weight different types of context carry (locked facts vs. working assumptions vs. archived material). `governance/approval_boundaries.md` defines what requires explicit user sign-off. `governance/update_rules.md` defines how files may be changed. Read them before editing anything.
-3. **Do not invent facts.** If you don't know something about the user's context, ask. Never fill a template with plausible-sounding guesses presented as fact. If you must include a placeholder, mark it clearly, e.g. `[NEEDS USER INPUT]`.
+3. **Do not invent facts.** If you don't know something about the user's context, ask. Never fill a template with plausible-sounding guesses presented as fact. If you must include a placeholder, mark it clearly, e.g. `[NEEDS INPUT]`.
 4. **Flag privacy risks.** If the user tries to store credentials, health information, other people's personal data, or clearly confidential material in these files, warn them and point to `docs/privacy_and_review_warnings.md` before proceeding.
 5. **Keep files short.** These files only work if the user actually re-reads them. Prefer cutting to adding. If a file is growing long, say so.
 6. **Never treat unreviewed content as ground truth.** If you encounter content marked as draft, unreviewed, or needs-verification, treat it as tentative and say so when you rely on it.
