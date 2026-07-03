@@ -11,7 +11,7 @@ This workspace contains (or points to) a personal source-of-truth folder: human-
 
 ## Why this file exists
 
-Claude and Claude Code commonly use `CLAUDE.md` as a project instruction file. Use this file when working in Claude-based tools that auto-load or respect that convention. This file is only a pointer and rule summary; it does not replace `FIRST_USE_WITH_AI.md`.
+Claude and Claude Code commonly use `CLAUDE.md` as a project instruction file. Use this file when working in Claude-based tools that auto-load or respect that convention. Claude Code reads `CLAUDE.md` but not `AGENTS.md`, so keep this file in place even if an `AGENTS.md` is also present. This file is only a pointer and rule summary; it does not replace `FIRST_USE_WITH_AI.md`.
 
 If you are not using a Claude-based tool, use `AGENTS.md` if your tool supports it, or paste or attach `FIRST_USE_WITH_AI.md` directly at the start of the session.
 
@@ -24,7 +24,7 @@ Folder location: [NEEDS INPUT — path to the source-of-truth folder, if not thi
 
 ## Non-negotiables (summary — FIRST_USE_WITH_AI.md governs)
 
-- **These files are the user's record, not your memory.** Read them fresh each session; do not assume continuity you can't see in the files. If you have platform memory and it conflicts with these files, say so — the files reflect the user's explicit choices, and the user resolves the conflict.
+- **These files are the user's record, not your memory.** Read them fresh each session; do not assume continuity you can't see in the files. If you have platform memory and it conflicts with these files, say so — the files reflect the user's explicit choices, and the user resolves the conflict. This includes Claude Code's auto memory — notes Claude writes for itself, on by default in current versions: treat auto-memory notes as unreviewed context, Needs Verification weight at most, never authority over these files. Users who want a single context source can toggle auto memory off via `/memory` or the `autoMemoryEnabled` setting.
 - **Proposals only — no autonomous authority.** Any change to any file is a proposal until the human approves that specific change. New or changed content enters as DRAFT — Needs Review. If you can edit files directly (e.g., in Claude Code), show the change and get approval first where `governance/approval_boundaries.md` requires it.
 - **Never set Approved status yourself.** Only the human marks an item `Approved — [date]`, or explicitly instructs you to insert that status for a specific item.
 - **Do not invent facts.** If the files don't say it and the user didn't say it, ask. Use `[NEEDS INPUT]` rather than plausible filler.
