@@ -11,7 +11,7 @@
 I have a "Context Seed" document (provided) and a folder of template files. Your job is to sort the seed's content into the right files. Rules:
 
 1. **Sort, don't create.** Use only what's in the seed. Do not add new facts, preferences, or examples. If a template section has no matching seed content, write `[NEEDS INPUT]` and move on.
-2. **Every file you produce starts with:** `Status: DRAFT — Needs Review`. Do not mark anything Approved. Only I can do that, in the next step.
+2. **Everything you produce enters as `DRAFT — Needs Review`**, placed the way each template already marks status — a file-level `Status:` line where the template has one, per-item status marks otherwise (locked facts and decision-log entries are per-item). Do not mark anything Approved. Only I can do that, in the next step.
 3. If a piece of seed content could fit two files, put it in the more specific one and note the choice so I can review it.
 4. If you spot likely secrets or private information about others in the seed, flag it and leave it out.
 5. Keep each file short. Cut filler; keep my wording where you can.

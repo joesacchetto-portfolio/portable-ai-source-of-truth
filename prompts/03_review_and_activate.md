@@ -21,6 +21,6 @@ I have a folder of DRAFT files created from my context seed. Walk me through rev
 5. For `source_of_truth/locked_facts_template.md`, be extra strict — these will be treated as ground truth. Only facts I explicitly confirm, one by one, get `Approved`. Suggest moving anything time-sensitive to `current_working_context` instead.
 6. Keep a running list of `[NEEDS INPUT]` gaps we hit; at the end, ask me whether to fill them now or leave them.
 
-Review the files in this order: `governance/` (all three), `core_context/` (all three), `source_of_truth/` (both), `decisions/` (all three), then anything else that's in DRAFT.
+Review the files in this order: `governance/` (all three), `core_context/` (all three), `source_of_truth/` (both), `decisions/` (all three), then anything else that's in DRAFT. Skip any file that contains only template placeholders — note it as a gap instead, and remind me those files fill in from real use, not setup.
 
 When we finish, give me a short closing summary: which files are fully Approved, which contain Needs Verification items, and which still have gaps. Remind me that the framework is now live, that I should update `current_working_context` when my active work changes, and that I should run `prompts/04_audit_for_drift.md` periodically.
