@@ -14,7 +14,7 @@ Use this every time you start a session that should be aligned with your framewo
 
 **3. Check the confirmation.** The assistant should play back its understanding of your current context and priorities in a few sentences. Read it. If it's wrong, correct it now — a session that starts misaligned stays misaligned. If the assistant reports missing files or contradictions, resolve those before working.
 
-*Tip: if your tool auto-loads a `CLAUDE.md` or `AGENTS.md` instructions file, copy the matching file from `templates/` into place once — then step 2 happens automatically in every session. Note the split: Claude Code reads `CLAUDE.md` (not `AGENTS.md`); Codex, Cursor, and most other tools read `AGENTS.md`. If you use tools from both families, copy both files.*
+*Tip: if your tool auto-loads a `CLAUDE.md` or `AGENTS.md` instructions file, copy the matching file from `templates/` into place once — then step 2 happens automatically in every session. Note the split: Claude Code reads `CLAUDE.md` (not `AGENTS.md`); Codex, Cursor, and most other tools read `AGENTS.md`. If you use tools from both families, copy both files. (Tool behavior as of mid-2026 — verify against your tools' current docs.)*
 
 ## If your tool can only take pasted text
 
