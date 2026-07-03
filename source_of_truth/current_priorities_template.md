@@ -51,6 +51,7 @@ Status: DRAFT — Needs Review
 - [NEEDS INPUT]
 
 ---
+*Each rule can carry its own status. Unmarked rules inherit the file's status above. When you confirm a rule, mark it `Approved — [date]`; when unsure, `Needs Verification`; move retired rules to an Archive section at the bottom marked `Archived — [date]`.*
 
 ## Archive
 

@@ -48,4 +48,4 @@ Changes to `source_of_truth/locked_facts_template.md` get the strictest handling
 
 ## Keeping files usable
 
-Prefer editing over appending; these files should stay current, not accumulate. Move superseded material to an Archive section rather than deleting it, unless it is a privacy risk — privacy risks get deleted. If a file has grown past what you'd willingly re-read, that's the signal to prune.
+Prefer editing over appending; these files should stay current, not accumulate. Move superseded material to an Archive section rather than deleting it. The one exception is a privacy risk, which the human deletes outright rather than archiving — assistants flag privacy risks and never delete on their own (see the "may never" rules above and `approval_boundaries.md`). If a file has grown past what you'd willingly re-read, that's the signal to prune.
