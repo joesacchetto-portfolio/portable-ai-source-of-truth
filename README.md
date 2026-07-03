@@ -19,7 +19,7 @@ This is not a new idea. Developers have used files like `CLAUDE.md` and `AGENTS.
 
 ## Who it's for
 
-Project managers, implementation leads, operators, consultants, job seekers, and solo users — anyone doing high-context work with AI assistants who wants consistency without building a technical system. No coding required. If you can edit a text file, you can use this.
+Project managers, implementation leads, operators, consultants, and solo users — anyone doing high-context work with AI assistants who wants consistency without building a technical system. No coding required. If you can edit a text file, you can use this.
 
 Works with ChatGPT, Claude, Codex, Cursor, and any other assistant that can read files or accept pasted text.
 
