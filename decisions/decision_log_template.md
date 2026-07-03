@@ -24,7 +24,7 @@ Copy the entry format below. Newest entries first. Keep each field to a line or 
 ### Entry format
 
 ```
-## [YYYY-MM-DD] — [Short name of the decision]
+### [YYYY-MM-DD] — [Short name of the decision]
 - Decision: [what was decided, in one sentence]
 - Rationale: [why — enough that future-you understands the trade-off]
 - Status: [DRAFT — Needs Review | Needs Verification | Approved — [date] | Archived — [date]]
@@ -36,7 +36,7 @@ Copy the entry format below. Newest entries first. Keep each field to a line or 
 
 ## Entries
 
-## [NEEDS INPUT — date] — [NEEDS INPUT — first decision]
+### [NEEDS INPUT — date] — [NEEDS INPUT — first decision]
 
 - Decision: [NEEDS INPUT]
 - Rationale: [NEEDS INPUT]

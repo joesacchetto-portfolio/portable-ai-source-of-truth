@@ -74,7 +74,7 @@ Status: Approved — 2026-06-10
 
 - Decision: Status updates to the steering group use one page: Done / At risk / Decisions needed.
 - Rationale: The previous format buried the asks; two members said they'd stopped reading it.
-- Status: Archived — 2026-06-12 (superseded: steering group now wants "Decisions needed" first; see decision of 2026-06-12 in the full log — not shown in this condensed example)
+- Status: Archived — 2026-06-15 (superseded: steering group now wants "Decisions needed" first; see decision of 2026-06-15 in the full log — not shown in this condensed example)
 
 ## From: decisions/approved_phrasing_template.md
 

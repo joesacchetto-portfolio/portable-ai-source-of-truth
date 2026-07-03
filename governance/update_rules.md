@@ -4,7 +4,7 @@ This file defines how the files in this folder may be changed, reviewed, and sta
 
 ## Statuses
 
-Every substantive item (a fact, rule, preference, priority, or decision) carries one status:
+Every substantive item in the user-content files (`core_context/`, `source_of_truth/`, `decisions/`, and the "My additional sign-off items" section) — a fact, rule, preference, priority, or decision — carries one status:
 
 - **DRAFT — Needs Review**: new or changed content that no human has confirmed yet. All AI-generated material starts here, with no exceptions.
 - **Needs Verification**: uncertain — the human saw it and wasn't sure it's (still) right, or an assistant flagged it with specific stated evidence. It stays flagged, carrying no reliable authority, until the human resolves it.

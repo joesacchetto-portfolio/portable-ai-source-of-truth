@@ -8,7 +8,7 @@ Edit this file to match your own comfort level. The defaults below are deliberat
 
 An AI assistant must get explicit approval before:
 
-- **Changing any item's status to Approved**, or moving anything into `source_of_truth/locked_facts_template.md`. This is never the assistant's call, under any instruction.
+- **Changing any item's status to Approved**, or moving anything into `source_of_truth/locked_facts_template.md`. This is never the assistant's call, under any instruction. (Exception: inserting the status after the human confirms a specific item and gives an explicit item-level instruction — see `update_rules.md`.)
 - **Editing Locked Facts** — adding, removing, or rewording anything in `source_of_truth/locked_facts_template.md`. (One exception: appending a `Needs Verification` flag — see "Allowed without sign-off" below.)
 - **Editing governance files** — this file, `authority_levels.md`, or `update_rules.md`.
 - **Deleting content** from any approved file (as opposed to proposing a deletion).
@@ -24,11 +24,11 @@ An AI assistant must get explicit approval before:
      Approved — [date]. Assistants may add DRAFT entries in this section;
      every other part of this file still requires sign-off to edit. -->
 
-- [NEEDS INPUT]
+- [NEEDS INPUT] — DRAFT — Needs Review
 
 ## Allowed without sign-off (proposal still visible)
 
-The assistant may do these directly, as long as the change is shown to the human and enters at DRAFT / Needs Review status:
+The assistant may do these directly, as long as the change is shown to the human and enters at DRAFT — Needs Review status:
 
 - Draft new content for template files during setup.
 - Add a proposed entry to the decision log, marked DRAFT.

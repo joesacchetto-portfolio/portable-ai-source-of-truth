@@ -33,7 +33,7 @@ If your assistant can read files directly, also point it at `FIRST_USE_WITH_AI.m
 
 ## Step 4 — Review everything
 
-This step is not optional. Nothing the assistant wrote in Step 3 is "true" until you have read it and approved it. Watch for:
+This step is not optional — though if you ran prompt 03 in Step 3, its guided review is where most of it happens. Prompt 03 walks you through approving each item; this step is your confirmation that it's done and nothing slipped through. Nothing the assistant wrote is "true" until you have read and approved it. Watch for:
 
 - Facts the assistant guessed or embellished.
 - Preferences stated more strongly than you actually hold them.

@@ -10,7 +10,7 @@ Use this every time you start a session that should be aligned with your framewo
 
 > Read FIRST_USE_WITH_AI.md in this folder and follow it. You're in "Situation B" — loading an existing framework. Read the files in the order it specifies, then confirm your understanding as it instructs.
 
-`FIRST_USE_WITH_AI.md` handles the rest: it sets the ground rules (proposals only, no self-approval, no time estimates) and specifies the read order — governance first, then core context, then source of truth, then decisions.
+`FIRST_USE_WITH_AI.md` handles the rest: it sets the ground rules (proposals only, no self-approval, no time estimates) and specifies the read order — governance first, then core context and source of truth in the order it gives, then decisions.
 
 **3. Check the confirmation.** The assistant should play back its understanding of your current context and priorities in a few sentences. Read it. If it's wrong, correct it now — a session that starts misaligned stays misaligned. If the assistant reports missing files or contradictions, resolve those before working.
 
