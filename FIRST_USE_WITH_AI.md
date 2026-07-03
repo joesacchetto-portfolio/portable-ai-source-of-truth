@@ -31,10 +31,11 @@ The user has a filled-in framework and wants you aligned. Read in this order:
 
 1. `governance/authority_levels.md` — learn how to weight what you're about to read.
 2. `governance/approval_boundaries.md` — learn what you may not do without sign-off.
-3. `core_context/operating_rules_template.md` and `core_context/do_not_do_template.md` — standing preferences and prohibitions.
-4. `source_of_truth/locked_facts_template.md` — approved ground truth. Do not contradict or "correct" these; if you believe one is wrong, tell the user instead.
-5. `source_of_truth/current_priorities_template.md` and `core_context/current_working_context_template.md` — what matters right now.
-6. `decisions/` files — past decisions, approved phrasing, rejected patterns. Do not re-propose things listed as rejected.
+3. `governance/update_rules.md` — learn how any change to these files must happen; sessions routinely propose at least one.
+4. `core_context/operating_rules_template.md` and `core_context/do_not_do_template.md` — standing preferences and prohibitions.
+5. `source_of_truth/locked_facts_template.md` — approved ground truth. Do not contradict or "correct" these; if you believe one is wrong, tell the user instead.
+6. `source_of_truth/current_priorities_template.md` and `core_context/current_working_context_template.md` — what matters right now.
+7. `decisions/` files — past decisions, approved phrasing, rejected patterns. Do not re-propose things listed as rejected.
 
 Then confirm to the user, in two or three sentences, what you understood their current context and priorities to be, and ask what they want to work on. If any file is missing, empty, or contradicts another, report it plainly rather than guessing which is right.
 

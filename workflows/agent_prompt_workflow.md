@@ -18,7 +18,7 @@ Use this every time you start a session that should be aligned with your framewo
 
 ## If your tool can only take pasted text
 
-**1. Paste, in this order:** `FIRST_USE_WITH_AI.md`, then `governance/authority_levels.md` and `governance/approval_boundaries.md`, then `core_context/operating_rules_template.md` and `do_not_do_template.md`, then `source_of_truth/locked_facts_template.md` and `current_priorities_template.md`, then `core_context/current_working_context_template.md`. Add `decisions/` files when the session involves drafting in your voice.
+**1. Paste, in this order:** `FIRST_USE_WITH_AI.md`, then `governance/authority_levels.md`, `governance/approval_boundaries.md`, and `governance/update_rules.md`, then `core_context/operating_rules_template.md` and `do_not_do_template.md`, then `source_of_truth/locked_facts_template.md` and `current_priorities_template.md`, then `core_context/current_working_context_template.md`. Add `decisions/` files when the session involves drafting in your voice.
 
 **2. If that's too much for your tool's limits, prioritize:** governance summaries can be compressed to one line each ("You may propose changes but never approve them; everything you draft is DRAFT — Needs Review"), but paste locked facts and current working context in full — those are the files where paraphrasing loses the exact wording that matters.
 
