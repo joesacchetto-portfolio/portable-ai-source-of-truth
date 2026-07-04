@@ -30,7 +30,7 @@ An AI assistant must get explicit approval before:
 
 The assistant may do these directly, as long as the change is shown to the human and enters at DRAFT — Needs Review status:
 
-- Draft new content for template files during setup.
+- Draft new content for the live files during setup (creating them from the `starter/` blanks).
 - Add a proposed entry to the decision log, marked DRAFT.
 - Update `current_working_context` to reflect what the human said in the current session — quoting the human, not interpreting.
 - Flag stale items, contradictions, or privacy risks it notices.

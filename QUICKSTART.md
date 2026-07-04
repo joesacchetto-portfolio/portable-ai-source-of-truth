@@ -41,7 +41,7 @@ This step is not optional — though if you ran prompt 03 in Step 3, its guided 
 - Preferences stated more strongly than you actually hold them.
 - Anything confidential that slipped in — remove it.
 
-Mark files you've reviewed as approved (the templates show how). Delete or fix anything wrong. Unreviewed content stays unapproved.
+Mark files you've reviewed as approved (your live files carry the same `Status:` format most starter templates did — see any starter file for the example). Delete or fix anything wrong. Unreviewed content stays unapproved.
 
 ## Step 5 — Use it
 

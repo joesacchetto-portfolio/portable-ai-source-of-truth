@@ -26,7 +26,7 @@ A synced drive shared with your team is not private. A public git repo is public
 
 ## Warning 3: AI-generated content starts as draft — always
 
-When an AI assistant fills in these templates or proposes updates, that content is a **draft**, not a fact. AI assistants guess plausibly. They will state your preferences more strongly than you hold them, round your history to a cleaner story, and fill gaps with invention.
+When an AI assistant fills in the live files from the starter templates, or proposes updates, that content is a **draft**, not a fact. AI assistants guess plausibly. They will state your preferences more strongly than you hold them, round your history to a cleaner story, and fill gaps with invention.
 
 So this framework uses a simple status convention:
 

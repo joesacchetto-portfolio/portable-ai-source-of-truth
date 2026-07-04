@@ -50,7 +50,7 @@ Fillable files follow a two-part pattern, shown below as *ships as → becomes*:
 | `decisions/starter/approved_phrasing_template.md` → `decisions/approved_phrasing.md` | Wording you have approved for reuse in AI outputs. |
 | `decisions/starter/rejected_patterns_template.md` → `decisions/rejected_patterns.md` | Wording and behaviors you have rejected, so the AI stops repeating them. |
 | `prompts/01_create_context_seed.md` | Prompt that interviews you to draft your initial context in one document. |
-| `prompts/02_split_seed_into_files.md` | Prompt that splits the seed into the framework's files. |
+| `prompts/02_split_seed_into_files.md` | Prompt that splits the seed into the framework's live files. |
 | `prompts/03_review_and_activate.md` | Prompt that walks you through reviewing and approving the split files. |
 | `prompts/04_audit_for_drift.md` | Prompt that periodically checks files for contradictions and staleness. |
 | `examples/sample_project_manager_framework.md` | One condensed, fully fictional example of a completed framework. |

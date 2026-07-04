@@ -41,6 +41,7 @@ Use ISO-style dates in statuses: YYYY-MM-DD.
 3. **Human decides.** Approve, edit, or reject. No response is not approval.
 4. **Apply and mark.** Apply exactly what was approved. The human sets the status and date. If the assistant can edit files directly, it may insert the status only when the human gives an explicit item-level instruction such as: "Mark this exact item Approved — YYYY-MM-DD."
 5. **Log if it matters.** Decisions that future sessions should know about go in `decisions/decision_log.md`.
+6. **Create on first need.** `decisions/approved_phrasing.md` and `decisions/rejected_patterns.md` are never created during setup — they don't exist until real use produces their first entry. The first time a session needs one, create it from the matching starter blank (`decisions/starter/approved_phrasing_template.md` or `decisions/starter/rejected_patterns_template.md`) and add the entry.
 
 ## Special case: locked facts
 

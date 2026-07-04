@@ -1,6 +1,6 @@
 # Example: A Completed Framework (Fictional Project Manager)
 
-> **This example is entirely fictional.** "Dana" and everything else below were invented for this file. Nothing here is true, and none of it should be copied into your own framework as fact. It exists to show what the templates look like *filled in* — the level of detail, the status marks, and how the pieces fit together. Your real framework will live across the separate template files, not in one document like this.
+> **This example is entirely fictional.** "Dana" and everything else below were invented for this file. Nothing here is true, and none of it should be copied into your own framework as fact. It exists to show what the templates look like *filled in* — the level of detail, the status marks, and how the pieces fit together. Your real framework will live across the separate live files (created from the starter templates), not in one document like this.
 
 The fictional setup: Dana is a fictional project manager at a fictional mid-sized software company, coordinating rollout of an internal request-tracking tool.
 
