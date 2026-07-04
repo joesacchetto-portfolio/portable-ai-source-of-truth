@@ -15,6 +15,7 @@ I have a "Context Seed" document (provided) and a folder containing blank starte
 3. If a piece of seed content could fit two files, put it in the more specific one and note the choice so I can review it.
 4. If you spot likely secrets or private information about others in the seed, flag it and leave it out.
 5. Keep each file short. Cut filler; keep my wording where you can.
+6. Do not create `decisions/approved_phrasing.md` or `decisions/rejected_patterns.md` during this step, even if the seed contains content that seems to fit — those are created on first need during real use, not during setup (see `governance/update_rules.md`).
 
 Sort the seed into these files. For each one: copy the structure/format from the blank starter template at `[folder]/starter/[name]_template.md`, then create the live file `[folder]/[name].md` with that structure filled in from the seed content. Never modify the starter file itself — it stays as the blank reference.
 

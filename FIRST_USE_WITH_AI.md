@@ -27,7 +27,7 @@ The user is starting from the blank starter templates. Your job is to interview,
 
 ## Situation B: Loading an existing framework in a new session
 
-The user has a filled-in framework and wants you aligned. (If a listed file doesn't exist yet under its plain name, setup is incomplete — the blank version is in that folder's `starter/` subfolder; point the user to `prompts/02_split_seed_into_files.md`.) Read in this order:
+The user has a filled-in framework and wants you aligned. (If a listed file doesn't exist yet under its plain name, setup is incomplete — the blank version is in that folder's `starter/` subfolder; point the user to `prompts/02_split_seed_into_files.md`. Exception: `decisions/approved_phrasing.md` and `decisions/rejected_patterns.md` are never created during setup — they appear on first need; see `governance/update_rules.md`.) Read in this order:
 
 1. `governance/authority_levels.md` — learn how to weight what you're about to read.
 2. `governance/approval_boundaries.md` — learn what you may not do without sign-off.
