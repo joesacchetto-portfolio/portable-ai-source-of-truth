@@ -16,7 +16,7 @@ A folder of short markdown files that describe your work context: what's true, w
 
 Download or clone this repository and rename the folder to something meaningful to you. This copy is yours; edit anything.
 
-A note on how the fillable files work: the repo ships with blank templates under each folder's `starter/` subfolder (e.g. `decisions/starter/decision_log_template.md`). You never fill in or rename these yourself. When you run the setup prompts (prompt 02 in particular), the assistant automatically creates the live, cleanly-named file next to each starter folder (e.g. `decisions/decision_log.md`) with your content in it. The starter files stay blank as a permanent reference; the live files are what you and your assistants read and update day to day. If a live file doesn't exist yet under its plain name, that just means setup hasn't been completed.
+A note on how the fillable files work: the repo ships with blank templates under each folder's `starter/` subfolder (e.g. `decisions/starter/decision_log_template.md`). You never fill in or rename these yourself. When you run the setup prompts (prompt 02 in particular), the assistant automatically creates the live, cleanly-named file next to each starter folder (e.g. `decisions/decision_log.md`) with your content in it. The starter files stay blank as a permanent reference; the live files are what you and your assistants read and update day to day. If a live file doesn't exist yet under its plain name, that just means setup hasn't been completed — except `decisions/approved_phrasing.md` and `decisions/rejected_patterns.md`, which are never created during setup at all; they're created on first need (see `governance/update_rules.md`).
 
 ## Step 2 — Read two short files
 

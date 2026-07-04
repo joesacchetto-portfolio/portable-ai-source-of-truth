@@ -25,7 +25,7 @@ Works with ChatGPT, Claude, Codex, Cursor, and any other assistant that can read
 
 ## Repo map
 
-Fillable files follow a two-part pattern, shown below as *ships as → becomes*: the repo ships a blank template under a `starter/` subfolder, and setup (prompt 02) creates the live, cleanly-named file next to it. The live file is what you and your assistants use day to day; it doesn't exist until you've run setup.
+Fillable files follow a two-part pattern, shown below as *ships as → becomes*: the repo ships a blank template under a `starter/` subfolder, and setup (prompt 02) creates the live, cleanly-named file next to it. The live file is what you and your assistants use day to day; it doesn't exist until you've run setup. (Two exceptions: `decisions/approved_phrasing.md` and `decisions/rejected_patterns.md` are never created during setup — they're created on first need; see `governance/update_rules.md`.)
 
 | Path | Purpose |
 |---|---|
