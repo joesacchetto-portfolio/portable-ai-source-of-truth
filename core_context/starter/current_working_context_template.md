@@ -14,9 +14,9 @@ governance/authority_levels.md): assistants use it to guide help but state the
 assumption when output depends on it. It is expected to change — update it
 whenever your active work changes.
 
-What does NOT go here: stable facts (source_of_truth/locked_facts_template.md),
-durable priority rankings (source_of_truth/current_priorities_template.md), or
-standing preferences (operating_rules_template.md).
+What does NOT go here: stable facts (source_of_truth/locked_facts.md),
+durable priority rankings (source_of_truth/current_priorities.md), or
+standing preferences (operating_rules.md).
 
 Note: anything an AI assistant drafts into this file starts as
 DRAFT — Needs Review. Only you move an item to Approved — [date].

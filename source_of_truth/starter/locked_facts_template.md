@@ -16,7 +16,7 @@ governance/authority_levels.md). Assistants must not contradict, "correct," or
 reword these. That power cuts both ways: a wrong locked fact will confidently
 poison every session, so keep this list short and keep it right.
 
-Not sure it's stable? It goes in core_context/current_working_context_template.md
+Not sure it's stable? It goes in core_context/current_working_context.md
 instead. Not sure it's true? Mark it Needs Verification — an item that has not
 been confirmed carries NO locked-fact authority until you resolve it.
 

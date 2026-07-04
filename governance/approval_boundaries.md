@@ -8,8 +8,8 @@ Edit this file to match your own comfort level. The defaults below are deliberat
 
 An AI assistant must get explicit approval before:
 
-- **Changing any item's status to Approved**, or moving anything into `source_of_truth/locked_facts_template.md`. This is never the assistant's call, under any instruction. (Exception: inserting the status after the human confirms a specific item and gives an explicit item-level instruction — see `update_rules.md`.)
-- **Editing Locked Facts** — adding, removing, or rewording anything in `source_of_truth/locked_facts_template.md`. (One exception: appending a `Needs Verification` flag — see "Allowed without sign-off" below.)
+- **Changing any item's status to Approved**, or moving anything into `source_of_truth/locked_facts.md`. This is never the assistant's call, under any instruction. (Exception: inserting the status after the human confirms a specific item and gives an explicit item-level instruction — see `update_rules.md`.)
+- **Editing Locked Facts** — adding, removing, or rewording anything in `source_of_truth/locked_facts.md`. (One exception: appending a `Needs Verification` flag — see "Allowed without sign-off" below.)
 - **Editing governance files** — this file, `authority_levels.md`, or `update_rules.md`.
 - **Deleting content** from any approved file (as opposed to proposing a deletion).
 - **Anything leaving your hands** — email drafts to be sent, messages, posts, documents shared with others. The assistant may draft; only the human sends.

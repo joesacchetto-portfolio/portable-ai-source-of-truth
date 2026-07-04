@@ -14,7 +14,9 @@ A folder of short markdown files that describe your work context: what's true, w
 
 ## Step 1 — Copy this repo
 
-Download or clone this repository and rename the folder to something meaningful to you. This copy is yours; edit anything. One exception: keep the filenames as they are, including `_template`. Other files refer to them by name.
+Download or clone this repository and rename the folder to something meaningful to you. This copy is yours; edit anything.
+
+A note on how the fillable files work: the repo ships with blank templates under each folder's `starter/` subfolder (e.g. `decisions/starter/decision_log_template.md`). You never fill in or rename these yourself. When you run the setup prompts (prompt 02 in particular), the assistant automatically creates the live, cleanly-named file next to each starter folder (e.g. `decisions/decision_log.md`) with your content in it. The starter files stay blank as a permanent reference; the live files are what you and your assistants read and update day to day. If a live file doesn't exist yet under its plain name, that just means setup hasn't been completed.
 
 ## Step 2 — Read two short files
 
@@ -25,7 +27,7 @@ Read `docs/privacy_and_review_warnings.md` first. It covers what should never go
 The `prompts/` folder contains four numbered prompts. Use them in order, in a session with your AI assistant:
 
 1. **`01_create_context_seed.md`** — the assistant interviews you and drafts a single "seed" document describing your context.
-2. **`02_split_seed_into_files.md`** — the assistant splits the seed into the framework's template files.
+2. **`02_split_seed_into_files.md`** — the assistant splits the seed into the framework's live files, using the starter templates as the structure to follow.
 3. **`03_review_and_activate.md`** — the assistant walks you through reviewing every generated file. You correct, cut, and approve.
 4. **`04_audit_for_drift.md`** — save this one for after setup; run it periodically to catch contradictions and stale facts.
 
@@ -47,8 +49,8 @@ At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: p
 
 ## Keeping it healthy
 
-- Update `core_context/current_working_context_template.md` whenever your active work changes — it's meant to track your current state, not history.
-- Log meaningful decisions in `decisions/decision_log_template.md` as they happen.
+- Update `core_context/current_working_context.md` whenever your active work changes — it's meant to track your current state, not history. (If this file doesn't exist yet, setup hasn't been completed — see `core_context/starter/current_working_context_template.md` and prompt 02.)
+- Log meaningful decisions in `decisions/decision_log.md` as they happen. (If this file doesn't exist yet, setup hasn't been completed — see `decisions/starter/decision_log_template.md` and prompt 02.)
 - Run `prompts/04_audit_for_drift.md` periodically, on a schedule you choose.
 - If a file has grown too long to willingly re-read, prune it. Small is the feature.
 

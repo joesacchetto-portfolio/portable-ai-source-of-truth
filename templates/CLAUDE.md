@@ -36,4 +36,4 @@ Folder location: [NEEDS INPUT — path to the source-of-truth folder, if not thi
 
 `DRAFT — Needs Review` · `Needs Verification` · `Approved — [date]` · `Archived — [date]`
 
-"Locked" is not a status — it means an Approved item living in `source_of_truth/locked_facts_template.md`. Treat those as ground truth; if you believe one is wrong, say so instead of overriding it.
+"Locked" is not a status — it means an Approved item living in `source_of_truth/locked_facts.md`. Treat those as ground truth; if you believe one is wrong, say so instead of overriding it.

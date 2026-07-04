@@ -6,7 +6,7 @@ The fictional setup: Dana is a fictional project manager at a fictional mid-size
 
 ---
 
-## From: core_context/operating_rules_template.md
+## From: core_context/operating_rules.md
 
 Status: Approved — 2026-05-02
 
@@ -15,7 +15,7 @@ Status: Approved — 2026-05-02
 - When I ask for options, give exactly three, with your recommendation first. — Approved — 2026-05-02
 - Push back once if you think I'm wrong, clearly, then follow my call. — Approved — 2026-05-02
 
-## From: core_context/do_not_do_template.md
+## From: core_context/do_not_do.md
 
 Status: Approved — 2026-05-02
 
@@ -24,7 +24,7 @@ Status: Approved — 2026-05-02
 - Never commit me to dates in a draft — write "target," never "deadline," until I confirm. — Approved — 2026-05-02
 - Never assume department heads report to me. I coordinate them; I don't manage them. — Approved — 2026-05-02
 
-## From: core_context/current_working_context_template.md
+## From: core_context/current_working_context.md
 
 Status: Approved — 2026-06-24
 Last updated: 2026-06-24
@@ -42,14 +42,14 @@ Last updated: 2026-06-24
 
 - Change freeze during the fiscal-year close: no configuration changes to the tool until the freeze lifts.
 
-## From: source_of_truth/locked_facts_template.md
+## From: source_of_truth/locked_facts.md
 
 - The tool we are rolling out is an internal request tracker. It is not customer-facing. — Approved — 2026-05-02
 - "Launch" in this project means a department starts daily use, not the software install date. — Approved — 2026-05-02
 - I own the rollout schedule and training plan. Budget approval sits with the steering group, not me. — Approved — 2026-05-02
 - The Phase 1 department (Customer Support) is the reference case other departments are told about. — Approved — 2026-05-20
 
-## From: source_of_truth/current_priorities_template.md
+## From: source_of_truth/current_priorities.md
 
 Status: Approved — 2026-06-10
 
@@ -60,7 +60,7 @@ Status: Approved — 2026-06-10
 - When 1 and 2 conflict: protect adoption work and tell the steering group what got delayed.
 - Explicitly not a priority right now: evaluating replacements for the tool. Raised occasionally; parked until after Phase 3. — Approved — 2026-06-10
 
-## From: decisions/decision_log_template.md
+## From: decisions/decision_log.md
 
 ### [2026-06-12] — Phase 3 scope excludes the field team
 
@@ -76,13 +76,13 @@ Status: Approved — 2026-06-10
 - Rationale: The previous format buried the asks; two members said they'd stopped reading it.
 - Status: Archived — 2026-06-15 (superseded: steering group now wants "Decisions needed" first; see decision of 2026-06-15 in the full log — not shown in this condensed example)
 
-## From: decisions/approved_phrasing_template.md
+## From: decisions/approved_phrasing.md
 
 - Phrasing: "Phase 2 is tracking against the revised plan agreed in May, not the original January plan."
   - Use when: any status communication that mentions Phase 2 timing.
   - Status: Approved — 2026-06-10
 
-## From: decisions/rejected_patterns_template.md
+## From: decisions/rejected_patterns.md
 
 - Pattern: calling adoption issues "user resistance."
   - Why rejected: it frames colleagues as the problem; Dana wants issues described by cause ("the approval step adds clicks"), not by blame.

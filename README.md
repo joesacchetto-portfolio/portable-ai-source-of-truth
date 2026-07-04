@@ -25,6 +25,8 @@ Works with ChatGPT, Claude, Codex, Cursor, and any other assistant that can read
 
 ## Repo map
 
+Fillable files follow a two-part pattern, shown below as *ships as → becomes*: the repo ships a blank template under a `starter/` subfolder, and setup (prompt 02) creates the live, cleanly-named file next to it. The live file is what you and your assistants use day to day; it doesn't exist until you've run setup.
+
 | Path | Purpose |
 |---|---|
 | `README.md` | This file: purpose, audience, map, and boundaries. |
@@ -36,17 +38,17 @@ Works with ChatGPT, Claude, Codex, Cursor, and any other assistant that can read
 | `governance/authority_levels.md` | How much weight different types of context carry: locked facts, strong preferences, working assumptions, needs-verification items, archived material. |
 | `governance/approval_boundaries.md` | Which actions, file changes, or external outputs require explicit human sign-off. |
 | `governance/update_rules.md` | How, when, and by whom any file in the folder gets updated. |
-| `core_context/operating_rules_template.md` | Your standing working preferences and constraints. |
-| `core_context/do_not_do_template.md` | Explicit prohibitions the AI must respect. |
-| `core_context/current_working_context_template.md` | Current-work "what I'm working on right now" file, updated when your active work changes. |
-| `source_of_truth/locked_facts_template.md` | Human-approved facts the AI must treat as ground truth. |
-| `source_of_truth/current_priorities_template.md` | Ranked list of what matters now. |
+| `core_context/starter/operating_rules_template.md` → `core_context/operating_rules.md` | Your standing working preferences and constraints. |
+| `core_context/starter/do_not_do_template.md` → `core_context/do_not_do.md` | Explicit prohibitions the AI must respect. |
+| `core_context/starter/current_working_context_template.md` → `core_context/current_working_context.md` | Current-work "what I'm working on right now" file, updated when your active work changes. |
+| `source_of_truth/starter/locked_facts_template.md` → `source_of_truth/locked_facts.md` | Human-approved facts the AI must treat as ground truth. |
+| `source_of_truth/starter/current_priorities_template.md` → `source_of_truth/current_priorities.md` | Ranked list of what matters now. |
 | `workflows/transcript_summary_workflow.md` | Steps for turning a transcript into approved context updates. |
 | `workflows/decision_review_workflow.md` | Steps for reviewing an AI-proposed change before accepting it. |
 | `workflows/agent_prompt_workflow.md` | How to start a new AI session so it loads the right files in the right order. |
-| `decisions/decision_log_template.md` | Append-only record of decisions, with date, rationale, and status. |
-| `decisions/approved_phrasing_template.md` | Wording you have approved for reuse in AI outputs. |
-| `decisions/rejected_patterns_template.md` | Wording and behaviors you have rejected, so the AI stops repeating them. |
+| `decisions/starter/decision_log_template.md` → `decisions/decision_log.md` | Append-only record of decisions, with date, rationale, and status. |
+| `decisions/starter/approved_phrasing_template.md` → `decisions/approved_phrasing.md` | Wording you have approved for reuse in AI outputs. |
+| `decisions/starter/rejected_patterns_template.md` → `decisions/rejected_patterns.md` | Wording and behaviors you have rejected, so the AI stops repeating them. |
 | `prompts/01_create_context_seed.md` | Prompt that interviews you to draft your initial context in one document. |
 | `prompts/02_split_seed_into_files.md` | Prompt that splits the seed into the framework's files. |
 | `prompts/03_review_and_activate.md` | Prompt that walks you through reviewing and approving the split files. |

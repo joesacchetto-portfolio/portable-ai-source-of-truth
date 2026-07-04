@@ -37,7 +37,7 @@ Status: DRAFT — Needs Review
 ## Never say / never phrase it this way
 
 <!-- Wording that misrepresents you. For reusable approved wording, see
-     decisions/approved_phrasing_template.md and rejected_patterns_template.md. -->
+     decisions/approved_phrasing.md and rejected_patterns.md. -->
 
 - [NEEDS INPUT — e.g., "Never describe my proposals as 'final' — everything I circulate is a draft for input."]
 

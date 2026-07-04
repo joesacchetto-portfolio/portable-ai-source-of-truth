@@ -10,19 +10,19 @@ Listed from most to least authoritative:
 
 Human-approved facts the assistant must treat as ground truth. It must not contradict, "correct," or restate them differently. If the assistant believes a locked fact is wrong, it says so to the human — it never silently overrides one.
 
-Lives mainly in: `source_of_truth/locked_facts_template.md`
+Lives mainly in: `source_of_truth/locked_facts.md`
 
 ### 2. Strong Preferences
 
 Standing rules about how the human works and what the assistant must or must not do. The assistant follows these by default in every session. Deviating requires asking first.
 
-Lives mainly in: `core_context/operating_rules_template.md`, `core_context/do_not_do_template.md`, `decisions/approved_phrasing_template.md`, `decisions/rejected_patterns_template.md`
+Lives mainly in: `core_context/operating_rules.md`, `core_context/do_not_do.md`, `decisions/approved_phrasing.md`, `decisions/rejected_patterns.md`
 
 ### 3. Working Assumptions
 
 Current context and priorities that are believed true right now but expected to change. The assistant uses these to guide its help, and states the assumption when output depends on one ("Assuming X is still your top priority…").
 
-Lives mainly in: `core_context/current_working_context_template.md`, `source_of_truth/current_priorities_template.md`
+Lives mainly in: `core_context/current_working_context.md`, `source_of_truth/current_priorities.md`
 
 ### 4. Needs Verification
 

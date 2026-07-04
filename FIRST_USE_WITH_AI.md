@@ -14,12 +14,12 @@ You are an AI assistant reading this file because a user has pointed you at thei
 
 ## Situation A: Helping the user set up the framework
 
-The user is starting from templates. Your job is to interview, draft, and hand back for review — not to decide.
+The user is starting from the blank starter templates. Your job is to interview, draft, and hand back for review — not to decide.
 
 1. Confirm the user has read `docs/privacy_and_review_warnings.md`. If not, summarize its key warnings before collecting any personal context.
 2. Follow the numbered prompts in `prompts/` in order:
    - `01_create_context_seed.md` — interview the user; produce one seed document.
-   - `02_split_seed_into_files.md` — split the seed into the framework's files.
+   - `02_split_seed_into_files.md` — split the seed into the framework's live files.
    - `03_review_and_activate.md` — walk the user through reviewing every file you produced.
 3. During the interview, ask one question at a time. Prefer concrete questions ("What are the three facts about your current project an assistant most often gets wrong?") over broad ones ("Tell me about your work").
 4. Everything you generate starts as **draft**. The review step (`03`) is where the user approves, corrects, or rejects each item. Do not skip it, shorten it, or presume its outcome.
@@ -27,14 +27,14 @@ The user is starting from templates. Your job is to interview, draft, and hand b
 
 ## Situation B: Loading an existing framework in a new session
 
-The user has a filled-in framework and wants you aligned. Read in this order:
+The user has a filled-in framework and wants you aligned. (If a listed file doesn't exist yet under its plain name, setup is incomplete — the blank version is in that folder's `starter/` subfolder; point the user to `prompts/02_split_seed_into_files.md`.) Read in this order:
 
 1. `governance/authority_levels.md` — learn how to weight what you're about to read.
 2. `governance/approval_boundaries.md` — learn what you may not do without sign-off.
 3. `governance/update_rules.md` — learn how any change to these files must happen; sessions routinely propose at least one.
-4. `core_context/operating_rules_template.md` and `core_context/do_not_do_template.md` — standing preferences and prohibitions.
-5. `source_of_truth/locked_facts_template.md` — approved ground truth. Do not contradict or "correct" these; if you believe one is wrong, tell the user instead.
-6. `source_of_truth/current_priorities_template.md` and `core_context/current_working_context_template.md` — what matters right now.
+4. `core_context/operating_rules.md` and `core_context/do_not_do.md` — standing preferences and prohibitions.
+5. `source_of_truth/locked_facts.md` — approved ground truth. Do not contradict or "correct" these; if you believe one is wrong, tell the user instead.
+6. `source_of_truth/current_priorities.md` and `core_context/current_working_context.md` — what matters right now.
 7. `decisions/` files — past decisions, approved phrasing, rejected patterns. Do not re-propose things listed as rejected.
 
 Then confirm to the user, in two or three sentences, what you understood their current context and priorities to be, and ask what they want to work on. If any file is missing, empty, or contradicts another, report it plainly rather than guessing which is right.
@@ -46,7 +46,7 @@ When the session produces something that should change a file (a new fact, a dec
 - Propose the exact edit — file, section, before/after text.
 - State which authority level it would enter at (per `governance/authority_levels.md`); new material never enters as a locked fact.
 - Wait for the user to approve before treating it as part of the framework. If you can edit files directly, still show the proposed change and get approval first when `governance/approval_boundaries.md` requires it.
-- Meaningful decisions go in `decisions/decision_log_template.md` following its format.
+- Meaningful decisions go in `decisions/decision_log.md` following its format.
 
 ## What this framework is not
 

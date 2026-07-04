@@ -7,9 +7,9 @@ What goes here: your standing preferences for how AI assistants should work with
 you. These carry Strong Preference authority (see governance/authority_levels.md):
 assistants follow them by default in every session and ask before deviating.
 
-What does NOT go here: prohibitions (use do_not_do_template.md), facts
+What does NOT go here: prohibitions (use do_not_do.md), facts
 (use source_of_truth/), and anything about your current projects
-(use current_working_context_template.md).
+(use current_working_context.md).
 
 Keep it short. Five rules you'll maintain beat twenty you won't.
 Note: anything an AI assistant drafts into this file starts as

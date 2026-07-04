@@ -9,7 +9,7 @@ so assistants weight their help accordingly. "Durable" means the ranking holds
 across many sessions until you deliberately change it. It is NOT a task list.
 
 What does NOT go here: day-to-day work state, next steps, blockers — that's
-core_context/current_working_context_template.md. If an item only matters this
+core_context/current_working_context.md. If an item only matters this
 week, it isn't a priority in this file's sense.
 
 This file carries Working Assumption authority (see
