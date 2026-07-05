@@ -24,7 +24,7 @@ An AI assistant must get explicit approval before:
      Approved — [date]. Assistants may add DRAFT entries in this section;
      every other part of this file still requires sign-off to edit. -->
 
-- [NEEDS INPUT] — DRAFT — Needs Review
+- (none yet — this is normal; entries get added during setup or as you notice them)
 
 ## Allowed without sign-off (proposal still visible)
 

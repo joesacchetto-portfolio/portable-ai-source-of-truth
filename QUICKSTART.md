@@ -8,13 +8,15 @@ A folder of short markdown files that describe your work context: what's true, w
 
 ## Before you start
 
-- You need a plain-text editor. Notepad, TextEdit, VS Code, Obsidian — anything that saves `.md` files works.
+- You need a plain-text editor — and you already have one. `.md` files are ordinary text: on Windows, Notepad opens them; on Mac, TextEdit does. Nothing to install. If double-clicking a `.md` file opens the wrong app (or nothing), right-click the file and choose **Open With** → Notepad or TextEdit. Mac TextEdit users: if you create a *new* file, use **Format → Make Plain Text** first, and turn off **Edit → Substitutions → Smart Quotes** so quotes aren't silently reformatted. (If you already have an editor you like — VS Code, Obsidian, Notepad++ — use that.)
 - You need an AI assistant that can read files or accept pasted text (ChatGPT, Claude, Codex, Cursor, or similar).
 - Decide where the folder will live: on your computer, in a synced drive, or in a private git repo. Anywhere you can find it again.
 
 ## Step 1 — Copy this repo
 
 Download or clone this repository and rename the folder to something meaningful to you. This copy is yours; edit anything.
+
+Never used GitHub before? No account or git needed: on the repository page, click the green **Code** button, choose **Download ZIP**, and unzip the downloaded file somewhere you can find it (your Documents folder works fine). To unzip: on Windows, right-click the file → **Extract All**; on Mac, just double-click it. The unzipped folder is your copy.
 
 A note on how the fillable files work: the repo ships with blank templates under each folder's `starter/` subfolder (e.g. `decisions/starter/decision_log_template.md`). You never fill in or rename these yourself. When you run the setup prompts (prompt 02 in particular), the assistant automatically creates the live, cleanly-named file next to each starter folder (e.g. `decisions/decision_log.md`) with your content in it. The starter files stay blank as a permanent reference; the live files are what you and your assistants read and update day to day. If a live file doesn't exist yet under its plain name, that just means setup hasn't been completed — except `decisions/approved_phrasing.md` and `decisions/rejected_patterns.md`, which are never created during setup at all; they're created on first need (see `governance/update_rules.md`).
 
@@ -32,6 +34,10 @@ The `prompts/` folder contains four numbered prompts. Use them in order, in a se
 4. **`04_audit_for_drift.md`** — save this one for after setup; run it periodically to catch contradictions and stale facts.
 
 If your assistant can read files directly, also point it at `FIRST_USE_WITH_AI.md` — it contains the instructions the assistant should follow during setup.
+
+A heads-up on effort: if your tool **cannot** read files (a plain chat window), prompt 02 involves pasting your seed document plus several blank starter templates into the session. It works, but it's the most tedious path — a tool that can read files directly (Claude, Cursor, ChatGPT with file upload, or similar) makes this step much easier.
+
+Not sure what you're building toward? `examples/sample_project_manager_framework.md` shows what a completed (fictional) framework looks like — worth a skim before you start.
 
 ## Step 4 — Review everything
 

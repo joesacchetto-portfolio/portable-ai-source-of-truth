@@ -19,7 +19,11 @@ If you are not using a Claude-based tool, use `AGENTS.md` if your tool supports 
 
 Read `FIRST_USE_WITH_AI.md` in the source-of-truth folder and follow it. It defines the ground rules and the order to read the other files in. Do not skip it, and do not rely on this summary instead of it.
 
-<!-- If the folder lives elsewhere, give the path: -->
+<!-- If the folder lives elsewhere, give the path — the location of the
+     source-of-truth folder on your computer, e.g.:
+       Folder location: C:\Users\you\Documents\my-context-folder      (Windows)
+       Folder location: /Users/you/Documents/my-context-folder        (Mac)
+     If the folder IS this workspace, you can delete the line entirely. -->
 Folder location: [NEEDS INPUT — path to the source-of-truth folder, if not this workspace]
 
 ## Non-negotiables (summary — FIRST_USE_WITH_AI.md governs)

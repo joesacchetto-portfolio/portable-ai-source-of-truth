@@ -24,7 +24,7 @@ Sort the seed into these files. For each one: copy the structure/format from the
 - `core_context/current_working_context.md` — what I'm working on right now (from "Current focus" — the current-work detail). Structure from `core_context/starter/current_working_context_template.md`.
 - `source_of_truth/locked_facts.md` — stable facts about my role and work (from "Role and work" and "Facts assistants get wrong"). These are *candidates* for locking — they still enter as DRAFT. Structure from `source_of_truth/starter/locked_facts_template.md`.
 - `source_of_truth/current_priorities.md` — my ranked priorities (from "Current focus" — the durable ranking). Structure from `source_of_truth/starter/current_priorities_template.md`.
-- `governance/approval_boundaries.md` — what needs my sign-off (from "What needs my sign-off") — add entries under the "My additional sign-off items" section only; do not alter any other part of that file. (This is a fixed governance file, not a starter template — edit it in place.)
+- `governance/approval_boundaries.md` — what needs my sign-off (from "What needs my sign-off") — add entries under the "My additional sign-off items" section only, replacing the "(none yet …)" placeholder line; do not alter any other part of that file. (This is a fixed governance file, not a starter template — edit it in place.)
 - `decisions/decision_log.md` — leave mostly empty; add only decisions explicitly stated in the seed, dated today, marked DRAFT. Structure from `decisions/starter/decision_log_template.md`.
 
 Anything in the seed about "Recurring workflows" should be listed at the end as **suggestions** for me to adapt into the `workflows/` files myself — don't write those files.

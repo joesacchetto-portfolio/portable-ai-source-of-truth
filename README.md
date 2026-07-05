@@ -2,6 +2,8 @@
 
 A markdown-based starter kit for building your own portable "source of truth" folder — a small set of plain-text files that keep AI assistants aligned with your facts, preferences, and boundaries across tools and sessions.
 
+Full case study — background, design decisions, and findings: [joesacchetto.com/portable-ai-source-of-truth](https://joesacchetto.com/portable-ai-source-of-truth)
+
 ## What this is
 
 When you work with AI assistants on high-context work — managing projects, running implementations, consulting, coordinating teams — every new session starts from zero. You re-explain the same facts, the same constraints, the same "please don't do that" rules. Built-in memory features help, but they are tool-specific, hard to inspect, and not portable.
