@@ -37,7 +37,7 @@ The user has a filled-in framework and wants you aligned. (If a listed file does
 6. `source_of_truth/current_priorities.md` and `core_context/current_working_context.md` — what matters right now.
 7. `decisions/` files — past decisions, approved phrasing, rejected patterns. Do not re-propose things listed as rejected.
 
-Then confirm to the user, in two or three sentences, what you understood their current context and priorities to be, and ask what they want to work on. If any file is missing, empty, or contradicts another, report it plainly rather than guessing which is right.
+Then confirm to the user, in two or three sentences, what you understood their current context and priorities to be, and ask what they want to work on. If any file is missing, empty, or contradicts another, report it plainly rather than guessing which is right. When a substantial working session ends, close with a recap if the user's operating rules call for one.
 
 ## Proposing updates during a session
 
