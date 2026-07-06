@@ -52,6 +52,14 @@ Status: DRAFT — Needs Review
 - Ask me rather than assume. One question at a time.
 - [NEEDS INPUT — add your own default here, if different.]
 
+- ## Session close
+
+<!-- What a working session should end with, so the next session
+     (or a different tool) can pick up without re-explaining. -->
+
+- End any substantial working session with a recap: what changed (files, decisions, status changes), where the decision trail lives, what remains open and whose action it is, and what a future session needs to resume the work. Keep it factual.
+- [NEEDS INPUT — adjust to your own preference, or delete this section.]
+
 ---
 *Each rule can carry its own status. Unmarked rules inherit the file's status above. When you confirm a rule, mark it `Approved — [date]`; when unsure, `Needs Verification`; move retired rules to an Archive section at the bottom marked `Archived — [date]`.*
 
