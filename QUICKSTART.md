@@ -24,32 +24,44 @@ A note on how the fillable files work: the repo ships with blank templates under
 
 Read `docs/privacy_and_review_warnings.md` first. It covers what should never go into these files. Then skim `README.md`'s repo map so you know what each file is for.
 
-## Step 3 — Run the setup prompts with your AI assistant
+## Step 3 — Choose your setup path
 
-The `prompts/` folder contains four numbered prompts. Use them in order, in a session with your AI assistant:
+Choose the path that matches the AI tool you're using:
 
-1. **`01_create_context_seed.md`** — the assistant interviews you and drafts a single "seed" document describing your context.
-2. **`02_split_seed_into_files.md`** — the assistant splits the seed into the framework's live files, using the starter templates as the structure to follow.
-3. **`03_review_and_activate.md`** — the assistant walks you through reviewing every generated file. You correct, cut, and approve.
-4. **`04_audit_for_drift.md`** — save this one for after setup; run it periodically to catch contradictions and stale facts.
+- **File-aware assistant:** point the assistant at this folder and say: "Read `FIRST_USE_WITH_AI.md`, then help me run `prompts/01_create_context_seed.md`." If the assistant can write files, Prompt 01 should save the draft seed to `imports/context_seed.md`.
+- **Chat-only assistant:** copy and paste the contents of `prompts/01_create_context_seed.md` into the chat. When the assistant returns the Context Seed, save it yourself as `imports/context_seed.md`.
+- **Existing AI memory or prior chat history:** if the assistant you are using already has useful memory, use Prompt 01's optional first step there. If a different AI has the useful memory, run the rough-seed prompt there first, then bring the result back into this setup flow and save the corrected draft as `imports/context_seed.md`.
 
-If your assistant can read files directly, also point it at `FIRST_USE_WITH_AI.md` — it contains the instructions the assistant should follow during setup.
+If the assistant says it cannot write files, ask it to return the full markdown and save it yourself at the path shown.
 
-A heads-up on effort: if your tool **cannot** read files (a plain chat window), prompt 02 involves pasting your seed document plus several blank starter templates into the session. It works, but it's the most tedious path — a tool that can read files directly (Claude, Cursor, ChatGPT with file upload, or similar) makes this step much easier.
+The Context Seed is an intermediate draft artifact. It is not one of the live framework files and it is not approved source-of-truth content. It gives Prompt 02 a stable input to split into the live files.
+
+## Step 4 — Run the setup prompts
+
+Run the setup prompts in order:
+
+1. **`01_create_context_seed.md`** — create or refine `imports/context_seed.md`. Expected output: one draft Context Seed, saved at `imports/context_seed.md` if your assistant can write files, or returned for you to save there.
+2. **`02_split_seed_into_files.md`** — use your reviewed `imports/context_seed.md` to create the framework's live files, using the starter templates as the structure to follow.
+3. **`03_review_and_activate.md`** — review every generated file item by item. You correct, cut, verify, and approve.
+
+After setup, save **`04_audit_for_drift.md`** for later maintenance. Run it periodically to catch contradictions and stale facts.
+
+A heads-up on effort: if your tool cannot read files (a plain chat window), prompt 02 involves pasting your reviewed Context Seed plus several blank starter templates into the session. It works, but it's the most tedious path — a tool that can read files directly (Claude, Cursor, ChatGPT with file upload, or similar) makes this step much easier.
 
 Not sure what you're building toward? `examples/sample_project_manager_framework.md` shows what a completed (fictional) framework looks like — worth a skim before you start.
 
-## Step 4 — Review everything
+## Step 5 — Review everything
 
-This step is not optional — though if you ran prompt 03 in Step 3, its guided review is where most of it happens. Prompt 03 walks you through approving each item; this step is your confirmation that it's done and nothing slipped through. Nothing the assistant wrote is "true" until you have read and approved it. Watch for:
+This step is not optional — though if you ran prompt 03 in Step 4, its guided review is where most of it happens. Prompt 03 walks you through approving each item; this step is your confirmation that it's done and nothing slipped through. Nothing the assistant wrote is "true" until you have read and approved it. Watch for:
 
 - Facts the assistant guessed or embellished.
 - Preferences stated more strongly than you actually hold them.
 - Anything confidential that slipped in — remove it.
+- Anything that came from AI memory and still needs confirmation.
 
-Mark files you've reviewed as approved (your live files carry the same `Status:` format most starter templates did — see any starter file for the example). Delete or fix anything wrong. Unreviewed content stays unapproved.
+Mark confirmed items approved. Only mark a whole file approved if every item in it has been reviewed and confirmed. Your live files carry the same `Status:` format most starter templates did — see any starter file for the example. Delete or fix anything wrong. Unreviewed content stays unapproved.
 
-## Step 5 — Use it
+## Step 6 — Use it
 
 At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: point the assistant at the folder (or paste the key files) and tell it to read `FIRST_USE_WITH_AI.md` first. If your tool supports `CLAUDE.md` or `AGENTS.md` instruction files, copy the ones in `templates/` into the folder where you work with your AI tool.
 
@@ -59,6 +71,7 @@ At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: p
 - Log meaningful decisions in `decisions/decision_log.md` as they happen. (If this file doesn't exist yet, setup hasn't been completed — see `decisions/starter/decision_log_template.md` and prompt 02.)
 - Run `prompts/04_audit_for_drift.md` periodically, on a schedule you choose.
 - If a file has grown too long to willingly re-read, prune it. Small is the feature.
+- After setup, decide whether to keep, move, or delete `imports/context_seed.md`; it is source material, not active governed context.
 
 ## If you get stuck
 

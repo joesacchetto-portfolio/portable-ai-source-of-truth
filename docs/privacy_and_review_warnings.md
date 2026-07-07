@@ -36,10 +36,16 @@ So this framework uses a simple status convention:
 
 If you skip review, you will end up with a source-of-truth folder that confidently misleads every future session. That is worse than no folder at all.
 
-## Warning 4: Review is recurring, not one-time
+## Warning 4: AI memory is useful input, not truth
+
+If you ask an AI assistant to draft a rough Context Seed from its memory or prior chat history, treat that output as unreviewed draft material. AI memory can be stale, incomplete, overconfident, or mixed with context that no longer applies. It can also surface details you do not want stored in plain text.
+
+Before splitting a rough seed into files, read it yourself. Delete sensitive material, correct wrong claims, and mark uncertain items as `[NEEDS VERIFICATION]` or `[NEEDS INPUT]`. The draft seed normally lives at `imports/context_seed.md`; that file may contain the most sensitive unreviewed material in the folder. Nothing from AI memory becomes part of your source of truth until you review and approve the specific item.
+
+## Warning 5: Review is recurring, not one-time
 
 Facts go stale. Priorities shift. A file you approved earlier can quietly become wrong. Run `prompts/04_audit_for_drift.md` periodically, on a schedule you choose, and re-read any file before relying on it for something important.
 
-## Warning 5: You can always remove things
+## Warning 6: You can always remove things
 
 Nothing here is permanent. If you realize something sensitive slipped in, delete it. (If the folder is in git, note that history keeps old versions — you may need to clean history or rotate anything exposed.) When in doubt, leave it out: a smaller, safer file beats a complete, risky one.

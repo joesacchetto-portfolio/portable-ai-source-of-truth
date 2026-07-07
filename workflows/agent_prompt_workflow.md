@@ -1,6 +1,8 @@
 # Workflow: Starting a New AI Session
 
-Use this every time you start a session that should be aligned with your framework. The goal is that the assistant loads the right files, in the right order, and proves it understood them before you start working.
+Use this every time you start a session that should be aligned with your completed framework. The goal is that the assistant loads the right files, in the right order, and proves it understood them before you start working.
+
+If setup is not complete yet, do not use this as a live-framework loading workflow. Start with `QUICKSTART.md` and `prompts/01_create_context_seed.md` instead. A blank starter repo does not contain your context until you create and review the live files.
 
 ## If your tool can read files
 

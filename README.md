@@ -40,6 +40,7 @@ Fillable files follow a two-part pattern, shown below as *ships as → becomes*:
 | `governance/authority_levels.md` | How much weight different types of context carry: locked facts, strong preferences, working assumptions, needs-verification items, archived material. |
 | `governance/approval_boundaries.md` | Which actions, file changes, or external outputs require explicit human sign-off. |
 | `governance/update_rules.md` | How, when, and by whom any file in the folder gets updated. |
+| `imports/README.md` | Notes on setup input, including the draft `imports/context_seed.md` file created by Prompt 01. |
 | `core_context/starter/operating_rules_template.md` → `core_context/operating_rules.md` | Your standing working preferences and constraints. |
 | `core_context/starter/do_not_do_template.md` → `core_context/do_not_do.md` | Explicit prohibitions the AI must respect. |
 | `core_context/starter/current_working_context_template.md` → `core_context/current_working_context.md` | Current-work "what I'm working on right now" file, updated when your active work changes. |
@@ -51,7 +52,7 @@ Fillable files follow a two-part pattern, shown below as *ships as → becomes*:
 | `decisions/starter/decision_log_template.md` → `decisions/decision_log.md` | Append-only record of decisions, with date, rationale, and status. |
 | `decisions/starter/approved_phrasing_template.md` → `decisions/approved_phrasing.md` | Wording you have approved for reuse in AI outputs. |
 | `decisions/starter/rejected_patterns_template.md` → `decisions/rejected_patterns.md` | Wording and behaviors you have rejected, so the AI stops repeating them. |
-| `prompts/01_create_context_seed.md` | Prompt that interviews you to draft your initial context in one document. |
+| `prompts/01_create_context_seed.md` | Prompt that helps you create the draft `imports/context_seed.md`, either from an existing AI-generated rough seed or from a guided interview. |
 | `prompts/02_split_seed_into_files.md` | Prompt that splits the seed into the framework's live files. |
 | `prompts/03_review_and_activate.md` | Prompt that walks you through reviewing and approving the split files. |
 | `prompts/04_audit_for_drift.md` | Prompt that periodically checks files for contradictions and staleness. |
