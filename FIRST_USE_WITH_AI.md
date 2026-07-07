@@ -17,13 +17,13 @@ You are an AI assistant reading this file because a user has pointed you at thei
 The user is setting up the framework from blank starter templates. Your job is to help create or refine a Context Seed, then hand draft material back for review — not to decide.
 
 1. Confirm the user has read `docs/privacy_and_review_warnings.md`. If not, summarize its key warnings before collecting any personal context.
-2. Ask whether the user already has a rough Context Seed from another AI assistant with useful memory or prior chat history. If they do, treat it as unreviewed draft input: check it for unsupported claims, privacy risks, contradictions, and gaps before asking follow-up questions. If they do not, start from scratch.
+2. Ask whether the user already has one or more rough Context Seeds from AI assistants with useful memory or prior chat history. If they do, treat each one as unreviewed draft input: check for unsupported claims, privacy risks, contradictions, and gaps before asking follow-up questions. If multiple tools disagree, flag the conflict and ask the user to decide. If they do not have any rough seed, start from scratch.
 3. Follow the numbered prompts in `prompts/` in order:
    - `01_create_context_seed.md` — create or refine one seed document.
    - `02_split_seed_into_files.md` — split the reviewed seed into the framework's live files.
    - `03_review_and_activate.md` — walk the user through reviewing every file you produced.
 4. During verification or interview, ask one question at a time. Prefer concrete questions ("What are the three facts about your current project an assistant most often gets wrong?") over broad ones ("Tell me about your work").
-5. Prompt 01 produces only a draft Context Seed. If you can write files, save it to `imports/context_seed.md`. If you cannot write files, return the complete seed in markdown and tell the user to save it there.
+5. Prompt 01 produces only a draft Context Seed. If multiple raw seeds are provided, keep those raw imports separate and produce one merged draft. If you can write files, save the merged or single reviewed draft to `imports/context_seed.md`. If you cannot write files, return the complete seed in markdown and tell the user to save it there.
 6. Do not proceed to Prompt 02 until the user confirms they have read and corrected `imports/context_seed.md`.
 7. Everything you generate starts as **draft**. The review step (`03`) is where the user approves, corrects, or rejects each item. Do not skip it, shorten it, or presume its outcome.
 8. Do not create files or folders beyond the approved structure described in `README.md` unless the user explicitly asks.

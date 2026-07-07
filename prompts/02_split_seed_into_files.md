@@ -4,7 +4,7 @@
 
 **Before you start:** Read `imports/context_seed.md` and fix anything wrong. Do not split a seed you have not read — errors multiply once they are spread across files. If the seed started as an AI-memory draft, review it especially carefully: remove sensitive material, correct unsupported claims, and mark uncertain items before continuing.
 
-**Input:** the reviewed and corrected Context Seed from `imports/context_seed.md`.
+**Input:** the reviewed and corrected Context Seed from `imports/context_seed.md` only. If raw per-tool seed files also exist in `imports/`, they are source material for Prompt 01, not input for this split.
 
 **Output:** the first set of live framework files in `core_context/`, `source_of_truth/`, and `decisions/`, plus any approved setup addition under `governance/approval_boundaries.md`'s "My additional sign-off items" section. Everything remains draft until Prompt 03 review.
 
@@ -20,7 +20,7 @@ I have reviewed and corrected `imports/context_seed.md`. I also have a folder co
 4. If you spot likely secrets or private information about others in the seed, flag it and leave it out.
 5. Keep each file short. Cut filler; keep my wording where you can.
 6. Do not create `decisions/approved_phrasing.md` or `decisions/rejected_patterns.md` during this step, even if the seed contains content that seems to fit — those are created on first need during real use, not during setup (see `governance/update_rules.md`).
-7. Do not treat `imports/context_seed.md` as governed context. It is source material for this split, not a live framework file.
+7. Do not treat `imports/context_seed.md` as governed context. It is source material for this split, not a live framework file. Do not split raw engine-specific seed files directly.
 
 Sort the seed into these files. For each one: copy the structure/format from the blank starter template at `[folder]/starter/[name]_template.md`, then create the live file `[folder]/[name].md` with that structure filled in from the seed content. Never modify the starter file itself — it stays as the blank reference.
 

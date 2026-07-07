@@ -31,6 +31,7 @@ Choose the path that matches the AI tool you're using:
 - **File-aware assistant:** point the assistant at this folder and say: "Read `FIRST_USE_WITH_AI.md`, then help me run `prompts/01_create_context_seed.md`." If the assistant can write files, Prompt 01 should save the draft seed to `imports/context_seed.md`.
 - **Chat-only assistant:** copy and paste the contents of `prompts/01_create_context_seed.md` into the chat. When the assistant returns the Context Seed, save it yourself as `imports/context_seed.md`.
 - **Existing AI memory or prior chat history:** if the assistant you are using already has useful memory, use Prompt 01's optional first step there. If a different AI has the useful memory, run the rough-seed prompt there first, then bring the result back into this setup flow and save the corrected draft as `imports/context_seed.md`.
+- **Multiple AI assistants:** save each rough seed separately in `imports/`, such as `imports/context_seed_chatgpt.md` and `imports/context_seed_claude.md`. Use Prompt 01's merge instructions to compare them and produce one merged draft at `imports/context_seed.md`.
 
 If the assistant says it cannot write files, ask it to return the full markdown and save it yourself at the path shown.
 
@@ -58,6 +59,7 @@ This step is not optional — though if you ran prompt 03 in Step 4, its guided 
 - Preferences stated more strongly than you actually hold them.
 - Anything confidential that slipped in — remove it.
 - Anything that came from AI memory and still needs confirmation.
+- Conflicts between rough seeds from different AI tools.
 
 Mark confirmed items approved. Only mark a whole file approved if every item in it has been reviewed and confirmed. Your live files carry the same `Status:` format most starter templates did — see any starter file for the example. Delete or fix anything wrong. Unreviewed content stays unapproved.
 

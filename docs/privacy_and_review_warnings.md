@@ -38,9 +38,9 @@ If you skip review, you will end up with a source-of-truth folder that confident
 
 ## Warning 4: AI memory is useful input, not truth
 
-If you ask an AI assistant to draft a rough Context Seed from its memory or prior chat history, treat that output as unreviewed draft material. AI memory can be stale, incomplete, overconfident, or mixed with context that no longer applies. It can also surface details you do not want stored in plain text.
+If you ask one or more AI assistants to draft rough Context Seeds from memory or prior chat history, treat every output as unreviewed draft material. AI memory can be stale, incomplete, overconfident, or mixed with context that no longer applies. It can also surface details you do not want stored in plain text.
 
-Before splitting a rough seed into files, read it yourself. Delete sensitive material, correct wrong claims, and mark uncertain items as `[NEEDS VERIFICATION]` or `[NEEDS INPUT]`. The draft seed normally lives at `imports/context_seed.md`; that file may contain the most sensitive unreviewed material in the folder. Nothing from AI memory becomes part of your source of truth until you review and approve the specific item.
+Before splitting a rough seed into files, read it yourself. Delete sensitive material, correct wrong claims, and mark uncertain items as `[NEEDS VERIFICATION]` or `[NEEDS INPUT]`. If you compare seeds from multiple tools, do not treat agreement as proof; it is only a review signal. The merged draft seed normally lives at `imports/context_seed.md`; raw per-tool seeds may also live in `imports/` and may contain the most sensitive unreviewed material in the folder. Nothing from AI memory becomes part of your source of truth until you review and approve the specific item.
 
 ## Warning 5: Review is recurring, not one-time
 
