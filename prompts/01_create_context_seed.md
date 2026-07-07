@@ -25,7 +25,7 @@ Then use the setup assistant to compare those raw imports and produce one merged
 
 Copy-ready merge prompt:
 
-> I have rough Context Seed drafts from multiple AI assistants in `imports/`. Compare them and produce one merged draft Context Seed at `imports/context_seed.md`. Treat every source seed as unreviewed draft input. Do not treat agreement across tools as proof. If sources conflict, quote the conflict briefly and mark the item `[NEEDS VERIFICATION]`. If one source includes something sensitive, private, or too personal, leave it out and flag that it was excluded. Preserve my wording where one source appears to quote or closely reflect me. Do not create live framework files. Only produce the merged Context Seed.
+> I have rough Context Seed drafts from multiple AI assistants. If you can read files, read the raw drafts in `imports/`. If you cannot read files, ask me to paste each raw draft into this chat. Compare them and produce one merged draft Context Seed at `imports/context_seed.md`. Treat every source seed as unreviewed draft input. Do not treat agreement across tools as proof. If sources conflict, quote the conflict briefly and mark the item `[NEEDS VERIFICATION]`. If one source includes something sensitive, private, or too personal, leave it out and flag that it was excluded. Preserve my wording where one source appears to quote or closely reflect me. Do not create live framework files. Only produce the merged Context Seed.
 
 Read the rough seed or merged seed before using it. Delete anything sensitive or wrong. Then continue with the main prompt below.
 

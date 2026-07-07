@@ -28,6 +28,8 @@ Read `docs/privacy_and_review_warnings.md` first. It covers what should never go
 
 Choose the path that matches the AI tool you're using:
 
+For a file-aware assistant, "point the assistant at this folder" usually means opening the downloaded folder as the tool's workspace, attaching or uploading the folder, or pasting the folder path if the tool can read local files.
+
 - **File-aware assistant:** point the assistant at this folder and say: "Read `FIRST_USE_WITH_AI.md`, then help me run `prompts/01_create_context_seed.md`." If the assistant can write files, Prompt 01 should save the draft seed to `imports/context_seed.md`.
 - **Chat-only assistant:** copy and paste the contents of `prompts/01_create_context_seed.md` into the chat. When the assistant returns the Context Seed, save it yourself as `imports/context_seed.md`.
 - **Existing AI memory or prior chat history:** if the assistant you are using already has useful memory, use Prompt 01's optional first step there. If a different AI has the useful memory, run the rough-seed prompt there first, then bring the result back into this setup flow and save the corrected draft as `imports/context_seed.md`.
@@ -45,7 +47,17 @@ Run the setup prompts in order:
 2. **`02_split_seed_into_files.md`** — use your reviewed `imports/context_seed.md` to create the framework's live files, using the starter templates as the structure to follow.
 3. **`03_review_and_activate.md`** — review every generated file item by item. You correct, cut, verify, and approve.
 
-After setup, save **`04_audit_for_drift.md`** for later maintenance. Run it periodically to catch contradictions and stale facts.
+After Prompt 02, check that these live files now exist before you run Prompt 03:
+
+- `core_context/operating_rules.md`
+- `core_context/do_not_do.md`
+- `core_context/current_working_context.md`
+- `source_of_truth/locked_facts.md`
+- `source_of_truth/current_priorities.md`
+- `decisions/decision_log.md`
+- If your seed included sign-off preferences, `governance/approval_boundaries.md` should also have draft entries under "My additional sign-off items".
+
+Do not run **`04_audit_for_drift.md`** until after setup is complete. After setup, run it periodically to catch contradictions and stale facts.
 
 A heads-up on effort: if your tool cannot read files (a plain chat window), prompt 02 involves pasting your reviewed Context Seed plus several blank starter templates into the session. It works, but it's the most tedious path — a tool that can read files directly (Claude, Cursor, ChatGPT with file upload, or similar) makes this step much easier.
 
@@ -65,7 +77,7 @@ Mark confirmed items approved. Only mark a whole file approved if every item in 
 
 ## Step 6 — Use it
 
-At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: point the assistant at the folder (or paste the key files) and tell it to read `FIRST_USE_WITH_AI.md` first. If your tool supports `CLAUDE.md` or `AGENTS.md` instruction files, copy the ones in `templates/` into the folder where you work with your AI tool.
+At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: point the assistant at the folder (or paste the key files) and tell it to read `FIRST_USE_WITH_AI.md` first. If your tool supports `CLAUDE.md` or `AGENTS.md` instruction files, copy the matching file from `templates/` into the folder where you work with your AI tool. After copying, replace the `Folder location: [NEEDS INPUT ...]` line with the real path to this source-of-truth folder, or delete that line if the instruction file sits inside the source-of-truth folder itself.
 
 ## Keeping it healthy
 

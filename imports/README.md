@@ -2,7 +2,7 @@
 
 This folder is for setup input brought into the framework before it becomes governed source-of-truth content.
 
-During setup, Prompt 01 should save the final draft seed here:
+During setup, Prompt 01 should save the merged or reviewed draft seed here:
 
 ```text
 imports/context_seed.md
