@@ -8,7 +8,18 @@
 
 **Output:** the first set of live framework files in `core_context/`, `source_of_truth/`, and `decisions/`, plus any draft setup additions under `governance/approval_boundaries.md`'s "My additional sign-off items" section. Everything remains draft until Prompt 03 review.
 
-**How to use:** Copy everything below the line into a session, along with your reviewed Context Seed (paste it or let the tool read `imports/context_seed.md`). If the tool can write files directly, it creates the live files for you. If it cannot write files, it outputs each file's content for you to paste into the live file paths listed below, not into the `starter/` templates. If the assistant cannot read the repo files directly, paste the reviewed Context Seed and the relevant blank starter templates (found under each folder's `starter/` subfolder), or paste the structure you want it to follow.
+**How to use:** Copy everything below the line into a session, along with your reviewed Context Seed (paste it or let the tool read `imports/context_seed.md`). If the tool can write files directly, it creates the live files for you. If it cannot write files, it outputs each file's content for you to paste into the live file paths listed below, not into the `starter/` templates.
+
+If the assistant cannot read the repo files directly, paste your reviewed Context Seed plus these starter templates:
+
+- `core_context/starter/operating_rules_template.md`
+- `core_context/starter/do_not_do_template.md`
+- `core_context/starter/current_working_context_template.md`
+- `source_of_truth/starter/locked_facts_template.md`
+- `source_of_truth/starter/current_priorities_template.md`
+- `decisions/starter/decision_log_template.md`
+
+You do not need to paste `approved_phrasing_template.md` or `rejected_patterns_template.md` during setup; those files are created later only if needed.
 
 ---
 

@@ -11,7 +11,13 @@ This workspace contains (or points to) a personal source-of-truth folder: human-
 
 ## Why this file exists
 
-Some tools look for an `AGENTS.md` file as a generic instruction file for AI agents — Codex, Cursor, GitHub Copilot, and Gemini CLI, among others. Use this file when your tool supports that convention. Note that Claude Code does not read `AGENTS.md`; use `templates/CLAUDE.md` there. (Tool behavior as of July 2026 — verify against your tools' current docs.) This file is only a pointer and rule summary; it does not replace `FIRST_USE_WITH_AI.md`.
+Most users can skip this file. Use it only if your AI tool automatically reads an `AGENTS.md` file, or if you already know your tool uses that convention.
+
+If you are not sure, ask your AI tool:
+
+> Does this tool automatically read an `AGENTS.md` file as project instructions? If yes, tell me where to put it. If no, tell me whether I should paste or attach `FIRST_USE_WITH_AI.md` at the start of each session instead.
+
+Some tools look for an `AGENTS.md` file as a generic instruction file for AI agents — Codex, Cursor, GitHub Copilot, and Gemini CLI, among others. Note that Claude Code does not read `AGENTS.md`; use `templates/CLAUDE.md` there. (Tool behavior as of July 2026 — verify against your tools' current docs.) This file is only a pointer and rule summary; it does not replace `FIRST_USE_WITH_AI.md`.
 
 If your tool does not read `AGENTS.md`, paste or attach `FIRST_USE_WITH_AI.md` directly at the start of the session.
 

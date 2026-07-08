@@ -1,6 +1,6 @@
 # Portable AI Source of Truth
 
-A markdown-based starter kit for building your own portable "source of truth" folder — a small set of plain-text files that keep AI assistants aligned with your facts, preferences, and boundaries across tools and sessions.
+A plain-text starter kit for everyday AI users who want assistants to stay aligned with the right facts, preferences, priorities, and boundaries across tools and sessions — without adopting a database, app, or developer workflow.
 
 Full case study — background, design decisions, and findings: [joesacchetto.com/portable-ai-source-of-truth](https://joesacchetto.com/portable-ai-source-of-truth)
 
@@ -8,9 +8,13 @@ Full case study — background, design decisions, and findings: [joesacchetto.co
 
 When you work with AI assistants on high-context work — managing projects, running implementations, consulting, coordinating teams — every new session starts from zero. You re-explain the same facts, the same constraints, the same "please don't do that" rules. Built-in memory features help, but they are tool-specific, hard to inspect, and not portable.
 
+Developers, engineers, AI builders, and power users already have ways to manage this problem through project instructions, coding-agent rules, decision logs, and local documentation. Those patterns are useful, but they are often shaped by developer environments.
+
+This kit adapts that discipline into a smaller plain-text folder for recurring high-context work in delivery, operations, consulting, and project settings.
+
 This kit takes a different, simpler approach: you keep your context in a folder of markdown files that you own, read, edit, and carry between tools. At the start of a session, you point the assistant at the folder. The files tell it what is true, what matters right now, what it may do on its own, and what requires your sign-off.
 
-This is not a new idea. Developers have used files like `CLAUDE.md` and `AGENTS.md` for this purpose for a while, and the broader concepts here (context files, human-in-the-loop review, decision logs) are borrowed from existing practice. This kit adapts those ideas into a structure that non-technical users can copy and fill in without writing any code.
+That means you can start work in one AI tool, close it, then continue in another tool by pointing the new assistant at the same folder. For example: start in Codex, continue in Claude, then later use ChatGPT with the same source-of-truth folder.
 
 ## What this is not
 
@@ -21,9 +25,23 @@ This is not a new idea. Developers have used files like `CLAUDE.md` and `AGENTS.
 
 ## Who it's for
 
-Project managers, implementation leads, operators, consultants, and solo users — anyone doing high-context work with AI assistants who wants consistency without building a technical system. No coding required. If you can edit a text file, you can use this.
+This is for people doing recurring high-context work — project managers, operators, consultants, founders, analysts, recruiters, account managers, customer success leads, coordinators, executive assistants, and solo users — who need AI assistants to stay consistent without learning engineering-style tooling. No coding required. If you can edit a text file, you can use this.
+
+This is not a new idea. Developers have used files like `CLAUDE.md` and `AGENTS.md` for this purpose for a while, and the broader concepts here — context files, human review, decision logs, and local documentation — are borrowed from existing practice. This kit adapts those ideas into a smaller plain-text structure that everyday AI users can copy, review, and maintain without writing code.
 
 Works with ChatGPT, Claude, Codex, Cursor, and any other assistant that can read files or accept pasted text.
+
+## Best way to use it
+
+This framework is easiest to use with an AI assistant that can read a local folder. In that setup, you point the assistant at this downloaded folder, then ask it to follow `QUICKSTART.md` or `FIRST_USE_WITH_AI.md`. The assistant can read the starter files, create the missing live files, and tell you what to review.
+
+Examples include coding assistants and desktop tools that can open or connect to a local project folder. If your AI tool only works through a web chat, you can still use this framework, but you may need to upload files, paste file contents, or copy the assistant's proposed changes back into the folder yourself.
+
+If you are not sure whether your AI tool can read a folder, ask it:
+
+```text
+Can you read or work with a local folder on my computer if I point you to it? If yes, tell me how to connect you to this folder. If no, tell me the easiest way to use these markdown files with you through uploads, attachments, or copy and paste.
+```
 
 ## Repo map
 

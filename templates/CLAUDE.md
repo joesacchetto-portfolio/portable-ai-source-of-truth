@@ -11,7 +11,13 @@ This workspace contains (or points to) a personal source-of-truth folder: human-
 
 ## Why this file exists
 
-Claude and Claude Code commonly use `CLAUDE.md` as a project instruction file. Use this file when working in Claude-based tools that auto-load or respect that convention. Claude Code reads `CLAUDE.md` but not `AGENTS.md`, so keep this file in place even if an `AGENTS.md` is also present. (Tool behavior as of July 2026 — verify against your tools' current docs.) This file is only a pointer and rule summary; it does not replace `FIRST_USE_WITH_AI.md`.
+Most users can skip this file. Use it only if you are working in Claude or Claude Code and your tool automatically reads a `CLAUDE.md` file.
+
+If you are not sure, ask your AI tool:
+
+> Does this tool automatically read a `CLAUDE.md` file as project instructions? If yes, tell me where to put it. If no, tell me whether I should paste or attach `FIRST_USE_WITH_AI.md` at the start of each session instead.
+
+Claude and Claude Code commonly use `CLAUDE.md` as a project instruction file. Claude Code reads `CLAUDE.md` but not `AGENTS.md`, so keep this file in place even if an `AGENTS.md` is also present. (Tool behavior as of July 2026 — verify against your tools' current docs.) This file is only a pointer and rule summary; it does not replace `FIRST_USE_WITH_AI.md`.
 
 If you are not using a Claude-based tool, use `AGENTS.md` if your tool supports it, or paste or attach `FIRST_USE_WITH_AI.md` directly at the start of the session.
 

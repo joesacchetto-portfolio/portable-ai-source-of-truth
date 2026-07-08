@@ -77,12 +77,14 @@ Mark confirmed items approved. Only mark a whole file approved if every item in 
 
 ## Step 6 — Use it
 
-At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: point the assistant at the folder (or paste the key files) and tell it to read `FIRST_USE_WITH_AI.md` first. If your tool supports `CLAUDE.md` or `AGENTS.md` instruction files, copy the matching file from `templates/` into the folder where you work with your AI tool. After copying, replace the `Folder location: [NEEDS INPUT ...]` line with the real path to this source-of-truth folder, or delete that line if the instruction file sits inside the source-of-truth folder itself.
+At the start of a new AI session, follow `workflows/agent_prompt_workflow.md`: point the assistant at the folder (or paste the key files) and tell it to read `FIRST_USE_WITH_AI.md` first. You can do this with the same AI tool as before, or with a different one. For example, if you worked in Codex yesterday and want to continue in Claude today, point Claude at the same folder and have it load `FIRST_USE_WITH_AI.md`.
+
+If your tool supports `CLAUDE.md` or `AGENTS.md` instruction files, copy the matching file from `templates/` into the folder where you work with your AI tool. After copying, replace the `Folder location: [NEEDS INPUT ...]` line with the real path to this source-of-truth folder, or delete that line if the instruction file sits inside the source-of-truth folder itself.
 
 ## Keeping it healthy
 
-- Update `core_context/current_working_context.md` whenever your active work changes — it's meant to track your current state, not history. (If this file doesn't exist yet, setup hasn't been completed — see `core_context/starter/current_working_context_template.md` and prompt 02.)
-- Log meaningful decisions in `decisions/decision_log.md` as they happen. (If this file doesn't exist yet, setup hasn't been completed — see `decisions/starter/decision_log_template.md` and prompt 02.)
+- Update `core_context/current_working_context.md` whenever your active work changes — this is the main handoff file that tells the next AI assistant what is happening now, what is blocked, and what the next step is. (If this file doesn't exist yet, setup hasn't been completed — see `core_context/starter/current_working_context_template.md` and prompt 02.)
+- Log meaningful decisions in `decisions/decision_log.md` as they happen — use this for decisions future sessions should remember, not for every small task update. (If this file doesn't exist yet, setup hasn't been completed — see `decisions/starter/decision_log_template.md` and prompt 02.)
 - Run `prompts/04_audit_for_drift.md` periodically, on a schedule you choose.
 - If a file has grown too long to willingly re-read, prune it. Small is the feature.
 - After setup, decide whether to keep, move, or delete `imports/context_seed.md`; it is source material, not active governed context.

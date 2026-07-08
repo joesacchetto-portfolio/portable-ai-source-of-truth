@@ -1,6 +1,8 @@
 # Workflow: Starting a New AI Session
 
-Use this every time you start a session that should be aligned with your completed framework. The goal is that the assistant loads the right files, in the right order, and proves it understood them before you start working.
+Use this every time you start a session that should be aligned with your completed framework. This includes starting fresh in the same AI tool and switching from one AI tool to another. For example, you can finish a session in Codex, then open Claude or ChatGPT later and point it at the same folder.
+
+The goal is that the assistant loads the right files, in the right order, and proves it understood them before you start working.
 
 If setup is not complete yet, do not use this as a live-framework loading workflow. Start with `QUICKSTART.md` and `prompts/01_create_context_seed.md` instead. A blank starter repo does not contain your context until you create and review the live files.
 
@@ -34,4 +36,4 @@ If setup is not complete yet, do not use this as a live-framework loading workfl
 
 ## Ending the session
 
-One question, not a ritual: did anything change that future sessions should know? If yes — update `current_working_context`, or log the decision. If no, just close it.
+One question, not a ritual: did anything change that future sessions should know? If yes, update `core_context/current_working_context.md` with the latest project state, blockers, or next steps. If an actual decision was made, log it in `decisions/decision_log.md`. If nothing changed, just close the session.

@@ -4,7 +4,7 @@
 
 **Do not skip this.** Unreviewed files will confidently mislead every future session. The value of the whole framework is created here.
 
-**How to use:** Copy everything below the line into a session where the assistant has access to your drafted files (or paste the files in).
+**How to use:** Copy everything below the line into a session where the assistant has access to your drafted files (or paste the files in). If the assistant cannot edit files directly, have it return the exact text changes for you to paste into each file.
 
 ---
 
@@ -18,7 +18,7 @@ I have a folder of DRAFT files created from my context seed. Walk me through rev
    - Would I be comfortable with this being sent to an AI provider in every future session?
    - Is it about another person in a way that isn't mine to record?
    - Did this item come from AI memory, and if so, have I personally confirmed it?
-4. Anything I confirm: change its status to `Approved — YYYY-MM-DD` (today's date). Anything I'm unsure about: mark `Needs Verification`. Anything cut: delete it, don't comment it out. This confirmation is my explicit item-level instruction to insert that status, per governance/update_rules.md.
+4. Anything I confirm: change its status to `Approved — YYYY-MM-DD` (today's date). Anything I'm unsure about: mark `Needs Verification`. Anything cut: delete it, don't comment it out. If you cannot edit the file directly, show me the exact replacement text to paste. This confirmation is my explicit item-level instruction to insert that status, per governance/update_rules.md.
 5. For `source_of_truth/locked_facts.md`, be extra strict — these will be treated as ground truth. Only facts I explicitly confirm, one by one, get `Approved`. Suggest moving anything time-sensitive to `current_working_context` instead.
 6. Keep a running list of `[NEEDS INPUT]` gaps we hit; at the end, ask me whether to fill them now or leave them.
 
